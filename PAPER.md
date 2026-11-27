@@ -18,15 +18,15 @@ On Tao's optimization-constants table, 6 of my pull requests are merged (#227, #
 
 Nothing here has been refereed by a journal, and no priority is claimed.
 
-This file puts the full record of every result in one place, for readers and reviewers who want it in a single document. Each section below is copied word for word from the result's own folder in [rpinho/math-certificates](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608): the claim, the first paragraph of the proof, and the clean-room referee's verdict. The full proof, referee report and prior-art check are linked from each section.
+This file puts the full record of every result in one place, for readers and reviewers who want it in a single document. Each section below is copied word for word from the result's own folder in [rpinho/math-certificates](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c): the claim, the first paragraph of the proof, and the clean-room referee's verdict. The full proof, referee report and prior-art check are linked from each section.
 
 ---
 
 # C42: Turán's pure power-sum constant, upper bound
 
-Folder: [c42/volterra-quadratic-knots](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/volterra-quadratic-knots)
+Folder: [c42/volterra-quadratic-knots](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/volterra-quadratic-knots)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>42</sub> ≤ **0.6863607950**
 
@@ -34,7 +34,7 @@ Previous best: 0.6873358063* on the table (Koshta); 0.68637* in open [PR #302](h
 
 Status: Unrefereed; mostly certifies the optimum of Bakeas's family. [Tao-table PR #305](https://github.com/teorth/optimizationproblems/pull/305) closed on 13 November 2026: NikosVat's open [PR #327](https://github.com/teorth/optimizationproblems/pull/327) (0.686360751*) is below it, on the same Theorem A. Bakeas checked the bundle and found no error. The earlier 0.6888863712 was [merged 2026-10-26 (UTC)](https://github.com/teorth/optimizationproblems/pull/251), preprint [hexagon:2610.00485](https://hexagonmath.org/2610.00485). No optimality claimed
 
-**Claim** (opening of [c42/volterra-quadratic-knots/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/volterra-quadratic-knots/README.md))
+**Claim** (opening of [c42/volterra-quadratic-knots/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/volterra-quadratic-knots/README.md))
 
 ### C42 <= 0.6863607950 on Bakeas's Theorem A
 
@@ -48,7 +48,7 @@ Theorem A is stated for knots j/48. Its proof uses only a finite piecewise-linea
 
 The claim is max(T,F) ≤ T = 0.6863607950. Two Arb verifiers give F ≤ 0.6863607743 and F ≤ 0.6863607774.
 
-**Method** (first paragraph of [c42/volterra-quadratic-knots/VOLTERRA_VERIFIER_MATH.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/volterra-quadratic-knots/VOLTERRA_VERIFIER_MATH.md))
+**Method** (first paragraph of [c42/volterra-quadratic-knots/VOLTERRA_VERIFIER_MATH.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/volterra-quadratic-knots/VOLTERRA_VERIFIER_MATH.md))
 
 Written from Bakeas, turan-c42-bound/NOTES.md (Theorem A, Lemma 3), after
 reproducing its new public T=.6865 certificate with both public checkers.
@@ -56,7 +56,7 @@ No code from either checker is imported. The new phase optimizer has not
 yet been written. This is an unrefereed extension of the computation, not
 a new claim about the validity of Bakeas's analytic theorem.
 
-**Review** (opening of [c42/volterra-quadratic-knots/review/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/volterra-quadratic-knots/review/README.md))
+**Review** (opening of [c42/volterra-quadratic-knots/review/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/volterra-quadratic-knots/review/README.md))
 
 ### Separate AI review: direct Volterra solve
 
@@ -66,23 +66,23 @@ The only change from the reviewed file is the certificate path on line 17. Run i
 
 `receipts/` holds its output at N = 73,728 to 2,359,296. The last two give F ≈ 0.6863607440163906 and 0.6863607440081801.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/volterra-quadratic-knots/README.md) · [Verifier mathematics](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/volterra-quadratic-knots/VOLTERRA_VERIFIER_MATH.md) · [Adaptation](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/volterra-quadratic-knots/BAKEAS_ADAPTATION.md) · [Review](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/volterra-quadratic-knots/review/README.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/volterra-quadratic-knots/README.md) · [Verifier mathematics](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/volterra-quadratic-knots/VOLTERRA_VERIFIER_MATH.md) · [Adaptation](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/volterra-quadratic-knots/BAKEAS_ADAPTATION.md) · [Review](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/volterra-quadratic-knots/review/README.md)
 
 ---
 
 # C42: Turán's pure power-sum constant, lower bound
 
-Folder: [c42/biro-explicit-lower](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower)
+Folder: [c42/biro-explicit-lower](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>42</sub> ≥ **1/2 + 2<sup>-4096</sup>**
 
 Previous best: >1/2 on the table (Biró 2000, constant not computed)
 
-Status: Unrefereed; an explicit value for Biró's strict bound by his own method, gain about 10<sup>-1233</sup>. Proof and exact checker by one AI agent; two blind AI reviews. [Tao-table PR #310](https://github.com/teorth/optimizationproblems/pull/310) open, not merged. [Independently replayed](https://github.com/teorth/optimizationproblems/pull/310#issuecomment-6717401133) by GitHub user arhancanli on 2026-11-08: all 39 numerical steps hold exactly; the geometric steps were read, not computed ([note](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower/EXTERNAL_REPLAY.md))
+Status: Unrefereed; an explicit value for Biró's strict bound by his own method, gain about 10<sup>-1233</sup>. Proof and exact checker by one AI agent; two blind AI reviews. [Tao-table PR #310](https://github.com/teorth/optimizationproblems/pull/310) open, not merged. [Independently replayed](https://github.com/teorth/optimizationproblems/pull/310#issuecomment-6717401133) by GitHub user arhancanli on 2026-11-08: all 39 numerical steps hold exactly; the geometric steps were read, not computed ([note](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower/EXTERNAL_REPLAY.md))
 
-**Claim** (opening of [c42/biro-explicit-lower/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower/README.md))
+**Claim** (opening of [c42/biro-explicit-lower/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower/README.md))
 
 ### C42: an explicit value for Biró's strict lower bound
 
@@ -92,7 +92,7 @@ Candidate, unrefereed.
 
 This makes explicit the strict bound of A. Biró, "An improved estimate in a power sum problem of Turán", Indag. Math. 11 (2000), 343-358 ([author copy](https://users.renyi.hu/~biroand/pdfs/Turan1.pdf)). Biró proved R_n > q for an effectively computable q > 1/2 but did not evaluate q. The method here is his: the first-escape geometry, the summed Newton identities and the attractive fixed point. What this note adds is explicit estimates and one concrete constant. The gain over 1/2 is about 10^(-1233), so it says nothing about where C42 lies.
 
-**Method** (first paragraph of [c42/biro-explicit-lower/LOWER_PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower/LOWER_PROOF.md))
+**Method** (first paragraph of [c42/biro-explicit-lower/LOWER_PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower/LOWER_PROOF.md))
 
 Candidate, unrefereed. This note quantifies the method of András Biró,
 “An improved estimate in a power sum problem of Turán”, Indagationes
@@ -102,11 +102,11 @@ Biró's published result. The first-escape geometry, summing the Newton
 identities, and the attractive fixed point below are his ideas. The
 explicit estimates and constant in this note are derived here.
 
-**Review** (opening of [c42/biro-explicit-lower/reviews/astra_gpt-6-astra.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower/reviews/astra_gpt-6-astra.md))
+**Review** (opening of [c42/biro-explicit-lower/reviews/astra_gpt-6-astra.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower/reviews/astra_gpt-6-astra.md))
 
 **(1) First false or unjustified step: none found.** I checked the entire proof, certificate, manifest and checker; ran the checker successfully; and compared the relevant passages with Biró’s paper and the live table. I found no counterexample or missing hypothesis.
 
-Here is the lemma-by-lemma audit of [LOWER_PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower/LOWER_PROOF.md). All statements in §§1–7 are conditional on an arbitrary fixed \(n\ge2\), an arbitrary complex tuple with \(z_1=1\), and \(|S_\ell|\le q\) for **every** \(1\le\ell\le n\). No assumption \(|z_i|\le1\) enters those sections.
+Here is the lemma-by-lemma audit of [LOWER_PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower/LOWER_PROOF.md). All statements in §§1–7 are conditional on an arbitrary fixed \(n\ge2\), an arbitrary complex tuple with \(z_1=1\), and \(|S_\ell|\le q\) for **every** \(1\le\ell\le n\). No assumption \(|z_i|\le1\) enters those sections.
 
 | Location | Quantifiers and audit |
 |---|---|
@@ -119,7 +119,7 @@ Here is the lemma-by-lemma audit of [LOWER_PROOF.md](https://github.com/rpinho/m
 | **§7, lines 362–400, (29)–(32)** | The established size of \(k\) ensures \(1\le m=\lfloor\sigma k\rfloor<k\) and \(m\ge\sigma k/2\). Raising the growth product to the eighth power gives \(A_{m-1}/A\le(m/k)^{1/8}\), in the correct direction. For every \(m\le j<k\), \(V\le kA\) gives (30). The early part includes \(j=0\). The error is \(79A/2048<A/16\). Finally, (1) actually gives \(\left|\tfrac12C_{k-1}-kb_k\right|\le E\); the triangle inequality then gives (32). Combining this with escape yields the impossible \(r(r-\tfrac12)\le1/16\). |
 | **§8, lines 404–415** | Rotation and permutation take every tuple with maximum modulus one to a tuple with first component one, preserving every power-sum modulus. The normalized domain is compact, so its continuous objective attains its minimum. Consequently the pointwise strict bound implies \(R_n>q\). Conversely, dividing a tuple with \(z_1=1\) by a largest component decreases each modulus by \(M^{-\ell}\), establishing equality of the two infima. Hence \(\limsup R_n\ge q\); strict inequality for the limsup is correctly not claimed. |
 
-**External replay** (opening of [c42/biro-explicit-lower/EXTERNAL_REPLAY.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower/EXTERNAL_REPLAY.md))
+**External replay** (opening of [c42/biro-explicit-lower/EXTERNAL_REPLAY.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower/EXTERNAL_REPLAY.md))
 
 ### External replay
 
@@ -140,23 +140,23 @@ the first-escape angle, the law of cosines, the Cauchy-Schwarz steps and the
 compactness argument of section 8). They read each and found no gap, which
 they describe as a reading, not a computation. It is not a peer review.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower/LOWER_PROOF.md) · [Review](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower/reviews/astra_gpt-6-astra.md) · [External replay](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower/EXTERNAL_REPLAY.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c42/biro-explicit-lower/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower/LOWER_PROOF.md) · [Review](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower/reviews/astra_gpt-6-astra.md) · [External replay](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower/EXTERNAL_REPLAY.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c42/biro-explicit-lower/PRIOR_ART.md)
 
 ---
 
 # C44: relevant variables in bounded-degree Boolean functions
 
-Folder: [c44/small-degree-classification](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c44/small-degree-classification)
+Folder: [c44/small-degree-classification](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c44/small-degree-classification)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>44</sub> < **1.9916994577**; R<sub>4</sub> = 22, R<sub>6</sub> ≤ 107, R<sub>7</sub> ≤ 227
 
 Previous best: 4.3576549226 on the table (mine)
 
-Status: Candidate and unrefereed. [Tao-table PR #294](https://github.com/teorth/optimizationproblems/pull/294) open, not merged. Earlier steps 2.0417086280 (preprint [hexagon:2610.00694](https://hexagonmath.org/2610.00694)), 2.1974348818, 3.9819073803 and 4.1225323803. The earlier 4.3576549226 was [merged 2026-10-26 (UTC)](https://github.com/teorth/optimizationproblems/pull/258) and [independently replayed](https://github.com/teorth/optimizationproblems/pull/258#issuecomment-6625127605) by GitHub user arhancanli on 2026-11-04 (see [c44](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c44/README.md#independent-external-replay)). Separately written (same agent) exact checkers; two AI reviews (Claude Opus 5.5 via Claude Science, GPT-6 Astra) found no false step. Rests on published classification premises and our own case searches; no human referee, formalization or optimality claimed
+Status: Candidate and unrefereed. [Tao-table PR #294](https://github.com/teorth/optimizationproblems/pull/294) open, not merged. Earlier steps 2.0417086280 (preprint [hexagon:2610.00694](https://hexagonmath.org/2610.00694)), 2.1974348818, 3.9819073803 and 4.1225323803. The earlier 4.3576549226 was [merged 2026-10-26 (UTC)](https://github.com/teorth/optimizationproblems/pull/258) and [independently replayed](https://github.com/teorth/optimizationproblems/pull/258#issuecomment-6625127605) by GitHub user arhancanli on 2026-11-04 (see [c44](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c44/README.md#independent-external-replay)). Separately written (same agent) exact checkers; two AI reviews (Claude Opus 5.5 via Claude Science, GPT-6 Astra) found no false step. Rests on published classification premises and our own case searches; no human referee, formalization or optimality claimed
 
-**Claim** (opening of [c44/small-degree-classification/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c44/small-degree-classification/README.md))
+**Claim** (opening of [c44/small-degree-classification/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c44/small-degree-classification/README.md))
 
 ### C44 < 1.9916994577: R4 = 22 and classification at small degree (rigorous, round11/frozen_parity/verify_b.py)
 
@@ -168,7 +168,7 @@ Candidate, unrefereed. This certifies an upper bound on C44, the constant in r(f
 
 It updates the earlier 2.0417086280 candidate and rests on the 2.1974348818 argument in [c44-certificate/reed-muller-caps](https://github.com/rpinho/c44-certificate/tree/e44b9b0cc91c656a680854ce341927c5a7b337c4/reed-muller-caps), including its inequality (3) (rigorous, round8/verify_completion_b.py). The lower bound stays at 3/2.
 
-**Method** (first paragraph of [c44/small-degree-classification/round11/frozen_parity/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c44/small-degree-classification/round11/frozen_parity/PROOF.md))
+**Method** (first paragraph of [c44/small-degree-classification/round11/frozen_parity/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c44/small-degree-classification/round11/frozen_parity/PROOF.md))
 
 No novelty, priority or public-record claim. This extends frozen_accepted/
 without changing it or the earlier rounds. All its explicit published and
@@ -177,7 +177,7 @@ finite result is accepted only if the new frozen replay passes. The two
 implementations were written separately by the same agent; this is not
 independent human refereeing or proof-assistant formalization.
 
-**Review summary** (opening of [c44/small-degree-classification/round11/review/astra/ASTRA_SUMMARY.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c44/small-degree-classification/round11/review/astra/ASTRA_SUMMARY.md))
+**Review summary** (opening of [c44/small-degree-classification/round11/review/astra/ASTRA_SUMMARY.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c44/small-degree-classification/round11/review/astra/ASTRA_SUMMARY.md))
 
 ### GPT-6 Astra review — publication summary
 
@@ -185,23 +185,23 @@ Astra accepted the candidate bound on its published premises and found no unjust
 
 This is a summary prepared for the release, not a replacement referee report. The supplied original markdown, whose workstation links are local, is retained verbatim in the release job's private provenance records. Original markdown SHA256: `509668f80f813300516e7e7a8d98796f72fe2332d71305bbdb6d205e35b00c35`. This is an AI review; no human referee is claimed.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c44/small-degree-classification/README.md) · [Proof (round 11)](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c44/small-degree-classification/round11/frozen_parity/PROOF.md) · [Review summary](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c44/small-degree-classification/round11/review/astra/ASTRA_SUMMARY.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c44/small-degree-classification/round11/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c44/small-degree-classification/README.md) · [Proof (round 11)](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c44/small-degree-classification/round11/frozen_parity/PROOF.md) · [Review summary](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c44/small-degree-classification/round11/review/astra/ASTRA_SUMMARY.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c44/small-degree-classification/round11/PRIOR_ART.md)
 
 ---
 
 # C70: reverse Brunn–Minkowski constant
 
-Folder: [c70](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c70)
+Folder: [c70](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c70)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>70</sub> ≥ **exp(1/(2e)) > 1.20194336847**; finite witness > **1.20194336**
 
 Previous best: 1 on the table; 1.201927 proposed by V. Patankar
 
-Status: Unrefereed; [Tao-table PR #259](https://github.com/teorth/optimizationproblems/pull/259) **merged 2026-10-26 (UTC)**; two arithmetic checkers by the same AI agent pass; [independently replayed](https://github.com/teorth/optimizationproblems/pull/259#issuecomment-6625128151) by GitHub user arhancanli on 2026-11-04 and in Brendan Byrne's open [PR #326](https://github.com/teorth/optimizationproblems/pull/326) (see [c70](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c70/README.md#independent-external-replay)); not formally verified; exhaustive priority and optimality are not asserted
+Status: Unrefereed; [Tao-table PR #259](https://github.com/teorth/optimizationproblems/pull/259) **merged 2026-10-26 (UTC)**; two arithmetic checkers by the same AI agent pass; [independently replayed](https://github.com/teorth/optimizationproblems/pull/259#issuecomment-6625128151) by GitHub user arhancanli on 2026-11-04 and in Brendan Byrne's open [PR #326](https://github.com/teorth/optimizationproblems/pull/326) (see [c70](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c70/README.md#independent-external-replay)); not formally verified; exhaustive priority and optimality are not asserted
 
-**Claim** (opening of [c70/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c70/README.md))
+**Claim** (opening of [c70/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c70/README.md))
 
 ### Optimizing a cube–ball lower bound for the reverse Brunn–Minkowski constant
 
@@ -215,21 +215,21 @@ This unrefereed preprint proves the claim
 Brunn–Minkowski constant for centrally symmetric convex bodies.
 A separate finite witness certifies **C₇₀ > 1.20194336**.
 
-Read the [paper (PDF)](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c70/paper/c70.pdf) and [TeX source](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c70/paper/c70.tex).
+Read the [paper (PDF)](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c70/paper/c70.pdf) and [TeX source](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c70/paper/c70.tex).
 The argument optimizes one term in V. Patankar's cube-and-ball construction.
 His preceding public proposal, 1.201927, uses dimension 300000 and
 cube side / ball radius 13/1000; its unchanged script and our Arb replay
 give approximately 1.20192714257250284496.
 The new limiting decimal lower endpoint exceeds that witness by more
 than 0.000016225897. This is an optimization of the same construction.
-See [FINAL_LIVE_CHECK.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c70/FINAL_LIVE_CHECK.md) for the dated source audit.
+See [FINAL_LIVE_CHECK.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c70/FINAL_LIVE_CHECK.md) for the dated source audit.
 
 The paper is **not peer reviewed and not formally verified**.
 Exhaustive priority is not asserted. No optimality over all convex-body
 pairs is claimed. The geometric positioning reduction and limiting theorem
 are proved in prose; the programs verify the arithmetic comparisons.
 
-**Verification** (opening of [c70/verification/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c70/verification/README.md))
+**Verification** (opening of [c70/verification/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c70/verification/README.md))
 
 ### Verification receipts
 
@@ -249,23 +249,23 @@ contains those C70 receipts, selected from the completed harness output.
 No extracted or edited replacement harness was executed. The original harness
 also depends on another problem's inputs and is not included in this distribution.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c70/README.md) · [Verification](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c70/verification/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c70/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c70/README.md) · [Verification](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c70/verification/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c70/PRIOR_ART.md)
 
 ---
 
 # C86: Schur–Siegel–Smyth trace constant
 
-Folder: [c86/round5](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c86/round5)
+Folder: [c86/round5](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c86/round5)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>86</sub> ≤ **1.8054939963**
 
 Previous best: 1.8084990* on the table (Koshta); 1.8054956 in open [PR #270](https://github.com/teorth/optimizationproblems/pull/270) (V. Patankar); 1.8070808 in Tomar's preprint
 
-Status: Candidate. 31-auxiliary exact density certificate; separately written (same agent) checkers. A clean-room AI referee on a different model (GPT-6 Astra) wrote its own checks, HOLDS ([referee](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c86/round5/referee)); no human review. [Tao-table PR #298](https://github.com/teorth/optimizationproblems/pull/298) open, not merged; it was first filed at 1.80560940 ([c86/adaptive-cone](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c86/adaptive-cone), preprint [hexagon:2610.00695](https://hexagonmath.org/2610.00695)). The earlier 1.8117251 was [merged 2026-10-18](https://github.com/teorth/optimizationproblems/pull/227), preprint [hexagon:2610.00425](https://hexagonmath.org/2610.00425). [Independently replayed](https://github.com/teorth/optimizationproblems/pull/298#issuecomment-6638029022) by GitHub user arhancanli on 2026-11-04 (see [c86/adaptive-cone](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c86/adaptive-cone/README.md#independent-external-replay)); that replay covers the 1.80560940 certificate only. No independent human review or optimality claimed
+Status: Candidate. 31-auxiliary exact density certificate; separately written (same agent) checkers. A clean-room AI referee on a different model (GPT-6 Astra) wrote its own checks, HOLDS ([referee](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c86/round5/referee)); no human review. [Tao-table PR #298](https://github.com/teorth/optimizationproblems/pull/298) open, not merged; it was first filed at 1.80560940 ([c86/adaptive-cone](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c86/adaptive-cone), preprint [hexagon:2610.00695](https://hexagonmath.org/2610.00695)). The earlier 1.8117251 was [merged 2026-10-18](https://github.com/teorth/optimizationproblems/pull/227), preprint [hexagon:2610.00425](https://hexagonmath.org/2610.00425). [Independently replayed](https://github.com/teorth/optimizationproblems/pull/298#issuecomment-6638029022) by GitHub user arhancanli on 2026-11-04 (see [c86/adaptive-cone](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c86/adaptive-cone/README.md#independent-external-replay)); that replay covers the 1.80560940 certificate only. No independent human review or optimality claimed
 
-**Claim** (opening of [c86/round5/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c86/round5/README.md))
+**Claim** (opening of [c86/round5/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c86/round5/README.md))
 
 ### C86: Schur–Siegel–Smyth trace constant
 
@@ -277,11 +277,11 @@ The certificate uses 31 auxiliaries (11 with nonreal roots, maximum degree 21), 
 
 Two producer checkers and the cover/hash audit pass. A clean-room AI referee on a different model, GPT-6 Astra via Codex, wrote its own checks and returned HOLDS. This is AI review and replay, not human review. The earlier external replay of the adaptive-cone certificate applies only to that earlier value; it is not evidence of an external replay of this certificate. The table asterisk stays.
 
-**Method** (first paragraph of [c86/round5/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c86/round5/PROOF.md))
+**Method** (first paragraph of [c86/round5/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c86/round5/PROOF.md))
 
 Let `mu` be the finite positive measure whose density is given by the certificate's exact rational node heights, linearly interpolated on the exact rational edges and zero elsewhere. Let `m=mu(R)>0`, `T=int x dmu`, and let the selected `Q_j` be distinct primitive irreducible integer polynomials with positive leading coefficients. Their roots may be complex. All polynomial arrays in our certificates are constant coefficient first.
 
-**Referee** (opening of [c86/round5/referee/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c86/round5/referee/README.md))
+**Referee** (opening of [c86/round5/referee/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c86/round5/referee/README.md))
 
 ### Clean-room AI referee
 
@@ -291,23 +291,23 @@ Its own exact/Arb checks cover structure, every auxiliary, normalization, every 
 
 The cover checker’s executable code is unchanged; its opening docstring now says “its own” enclosures. The structure checker replaces only the primitive-content calculation using math.gcd with FLINT fmpz.gcd, the same exact integer gcd operation, because the installed static linter misclassifies every math import as floating arithmetic. Its opening docstring also uses the public clean-room description. The original checker hash is retained in the source hashes; the release-adapted checker is freshly replayed. The corruption runner changes its opening description and its certificate path to `../certificate.json`. The referee’s original producer proof input is published as sources/producer-proof.md with portable citations and updated status wording. Original source hashes and all omitted-cover hashes are recorded in ../sources/input-hashes.json and ../sources/omitted-artifacts.json. No new historical isolation claim is created by these hashes.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c86/round5/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c86/round5/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c86/round5/referee/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c86/round5/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c86/round5/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c86/round5/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c86/round5/referee/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c86/round5/PRIOR_ART.md)
 
 ---
 
 # C82: essential minimum of the Zhang–Zagier height
 
-Folder: [c82/degree104-joint](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c82/degree104-joint)
+Folder: [c82/degree104-joint](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c82/degree104-joint)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>82</sub> < **0.2519696460**
 
 Previous best: 0.2534449* on the table (mine); 0.2519889614 in open [PR #280](https://github.com/teorth/optimizationproblems/pull/280) (V. Patankar, @vidigoat; v5, which reused four of our denominators), whose v3/v4/v5 certificates, numerator bank, iterated LLL numerator search and closest-vector method this builds on
 
-Status: Candidate and unrefereed; [Tao-table PR #330](https://github.com/teorth/optimizationproblems/pull/330) open, not merged, updated 13 Nov 2026 (earlier versions 0.252404806, 0.2520179248, 0.2519964890, 0.2519923410, 0.2519744488). Six degree-104 denominators and 40 numerators: Doche's five P-factors plus 35 found in this search, which started from the union with #280 v3/v4/v5; no #280-specific factor remains in this certificate; a separate AI referee rebuilt the interval checker from the proof and certificate and reproduced the bound (HOLDS WITH CAVEATS). The earlier degree104-cvp search used two MIT-licensed files from V. Patankar ([notice](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c82/degree104-cvp/THIRD_PARTY_NOTICE.md)); the degree104-joint packet uses none of his code, only his public MIT-licensed coefficient data ([notice](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c82/degree104-joint/THIRD_PARTY_NOTICE.md)). The earlier degree-44 result, C<sub>82</sub> < 0.253091834 in [PR #301](https://github.com/teorth/optimizationproblems/pull/301), was [independently replayed](https://github.com/teorth/optimizationproblems/pull/301#issuecomment-6628606867) by GitHub user arhancanli; the earlier 0.2534449 was [merged 2026-10-18](https://github.com/teorth/optimizationproblems/pull/229). No independent human review or optimality claimed
+Status: Candidate and unrefereed; [Tao-table PR #330](https://github.com/teorth/optimizationproblems/pull/330) open, not merged, updated 13 Nov 2026 (earlier versions 0.252404806, 0.2520179248, 0.2519964890, 0.2519923410, 0.2519744488). Six degree-104 denominators and 40 numerators: Doche's five P-factors plus 35 found in this search, which started from the union with #280 v3/v4/v5; no #280-specific factor remains in this certificate; a separate AI referee rebuilt the interval checker from the proof and certificate and reproduced the bound (HOLDS WITH CAVEATS). The earlier degree104-cvp search used two MIT-licensed files from V. Patankar ([notice](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c82/degree104-cvp/THIRD_PARTY_NOTICE.md)); the degree104-joint packet uses none of his code, only his public MIT-licensed coefficient data ([notice](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c82/degree104-joint/THIRD_PARTY_NOTICE.md)). The earlier degree-44 result, C<sub>82</sub> < 0.253091834 in [PR #301](https://github.com/teorth/optimizationproblems/pull/301), was [independently replayed](https://github.com/teorth/optimizationproblems/pull/301#issuecomment-6628606867) by GitHub user arhancanli; the earlier 0.2534449 was [merged 2026-10-18](https://github.com/teorth/optimizationproblems/pull/229). No independent human review or optimality claimed
 
-**Claim** (opening of [c82/degree104-joint/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c82/degree104-joint/README.md))
+**Claim** (opening of [c82/degree104-joint/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c82/degree104-joint/README.md))
 
 ### C82 degree-104 joint certificate
 
@@ -315,11 +315,11 @@ This packet gives **C82 < 0.2519696460*** (rigorous interval bound, verify_best.
 
 Under the same definition, the exact certified upper endpoint is below V. Patankar's public [#280 v5](https://github.com/vidigoat/optimization-records/blob/191064e7ccd88718853fe239dfd3890a8dc0fa37/tao/certificates/c82/v5/README.md) printed bound 0.2519889614* by at least 0.0000193154127508999188, and below [our previous packet for this PR](https://github.com/rpinho/math-certificates/blob/dadec7353c435a081befca73888e3ab6cef3134a/c82/degree104-joint/README.md), 0.2519744488*, by at least 0.0000048028127508999188. That previous packet was round 9 of this search. The gap below [our earlier certificate in this PR](https://github.com/rpinho/math-certificates/blob/a12c3622120c39af776902dbe49b6eff97a4d189/c82/degree104-joint/README.md), 0.2519923410*, is at least 0.0000226950127508999188. The gaps below [#280 v4](https://github.com/vidigoat/optimization-records/blob/79ce0dfb211a67ff7e387b58b0d19ff1d6accfba/tao/certificates/c82/v4/README.md)'s 0.2520079724* and [#280 v3](https://github.com/vidigoat/optimization-records/blob/197962c9610f583e9bc56efe37bfb994c1eeb834/tao/certificates/c82/v3/README.md)'s 0.2520591386* are at least 0.0000383264127508999188 and 0.0000894926127508999188, respectively. The exact comparison gaps are computed by certificate_facts.py in receipts/certificate-facts.json: each is the exact printed comparator minus the exact certified upper endpoint, rounded downward. These are deterministic mathematical comparisons, with no predictive score.
 
-**Method** (first paragraph of [c82/degree104-joint/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c82/degree104-joint/PROOF.md))
+**Method** (first paragraph of [c82/degree104-joint/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c82/degree104-joint/PROOF.md))
 
 The claim is C82 <= B < 0.2519696460 (rigorous interval enclosure, verify_best.py), conditional on the mathematical argument below and the trusted exact/ball arithmetic backend. This is a candidate, unrefereed result, verification level L0 for the bound as a whole.
 
-**Referee** (opening of [c82/degree104-joint/review/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c82/degree104-joint/review/README.md))
+**Referee** (opening of [c82/degree104-joint/review/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c82/degree104-joint/review/README.md))
 
 ### Clean-room round-10 referee archive
 
@@ -329,23 +329,23 @@ Verdict: HOLDS WITH CAVEATS. B is enclosed in [0.2519696459872490990419691935079
 
 replay/REPLAY.original.json and replay/REPLAY.json preserve the original receipt. Root REPLAY.json changes input path keys, canonical inputs_hash and checker/report paths, and adds a note. Hashes of input bytes, checker and replay report are unchanged. The preserved logs include development attempts and the completed replays; only the final checker is used for reproduction.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c82/degree104-joint/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c82/degree104-joint/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c82/degree104-joint/review/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c82/degree104-joint/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c82/degree104-joint/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c82/degree104-joint/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c82/degree104-joint/review/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c82/degree104-joint/PRIOR_ART.md)
 
 ---
 
 # C68: Korenblum's constant in the Bergman space
 
-Folder: [c68/contact-row](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/contact-row)
+Folder: [c68/contact-row](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/contact-row)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>68</sub> ≥ **0.447**
 
 Previous best: 0.432 on the table (mine); 0.446 in open [PR #274](https://github.com/teorth/optimizationproblems/pull/274) (V. Patankar), whose flux lemma this builds on
 
-Status: Candidate and unrefereed; contact-row moment lemma ([c68/contact-row](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/contact-row)), separately written (same agent) verifiers, an adversarial AI referee on a different model (GPT-6 Astra) found no defect ([c68/review](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/review)). [Tao-table PR #299](https://github.com/teorth/optimizationproblems/pull/299) open, not merged. [Independently replayed](https://github.com/teorth/optimizationproblems/pull/299#issuecomment-6717401424) by GitHub user arhancanli on 2026-11-08: every quantitative hypothesis holds ([note](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/contact-row/EXTERNAL_REPLAY.md)). The earlier 0.44685 step: preprint [hexagon:2610.00696](https://hexagonmath.org/2610.00696), [c68/signed-contact](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/signed-contact). The earlier 0.432 was [merged 2026-10-26 (UTC)](https://github.com/teorth/optimizationproblems/pull/239), preprint [hexagon:2610.00399](https://hexagonmath.org/2610.00399), Zenodo [10.5281/zenodo.23483542](https://doi.org/10.5281/zenodo.23483542). The analytic argument needs mathematical review
+Status: Candidate and unrefereed; contact-row moment lemma ([c68/contact-row](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/contact-row)), separately written (same agent) verifiers, an adversarial AI referee on a different model (GPT-6 Astra) found no defect ([c68/review](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/review)). [Tao-table PR #299](https://github.com/teorth/optimizationproblems/pull/299) open, not merged. [Independently replayed](https://github.com/teorth/optimizationproblems/pull/299#issuecomment-6717401424) by GitHub user arhancanli on 2026-11-08: every quantitative hypothesis holds ([note](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/contact-row/EXTERNAL_REPLAY.md)). The earlier 0.44685 step: preprint [hexagon:2610.00696](https://hexagonmath.org/2610.00696), [c68/signed-contact](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/signed-contact). The earlier 0.432 was [merged 2026-10-26 (UTC)](https://github.com/teorth/optimizationproblems/pull/239), preprint [hexagon:2610.00399](https://hexagonmath.org/2610.00399), Zenodo [10.5281/zenodo.23483542](https://doi.org/10.5281/zenodo.23483542). The analytic argument needs mathematical review
 
-**Claim** (opening of [c68/contact-row/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/contact-row/README.md))
+**Claim** (opening of [c68/contact-row/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/contact-row/README.md))
 
 ### Candidate C68 >= 447/1000 = 0.447 (rigorous, verify_measure.py)
 
@@ -367,14 +367,14 @@ and **Ricardo Pinho** for
 the covering-strip, contact and signed outer-factor constructions. Schuster's
 annular pseudodistance approach is an antecedent cited in the retained paper.
 
-**Method** (first paragraph of [c68/contact-row/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/contact-row/PROOF.md))
+**Method** (first paragraph of [c68/contact-row/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/contact-row/PROOF.md))
 
 Unrefereed computer-assisted analytic proof, 4 November 2026. The programs
 verify rational and Arb quantitative hypotheses, not arbitrary prose or
 complex analysis. Acceptance verification is separately written (same agent).
 No human expert verification, formalization, or novelty judgment is claimed.
 
-**External replay** (opening of [c68/contact-row/EXTERNAL_REPLAY.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/contact-row/EXTERNAL_REPLAY.md))
+**External replay** (opening of [c68/contact-row/EXTERNAL_REPLAY.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/contact-row/EXTERNAL_REPLAY.md))
 
 ### External replay
 
@@ -393,23 +393,23 @@ lower bound on g instead of this packet's cubic. Their red controls were
 refused, and three of them fail at B_1, so the new constant is load-bearing at
 k = 1, as `INEQUALITY_AUDIT.md` says.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/contact-row/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/contact-row/PROOF.md) · [External replay](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/contact-row/EXTERNAL_REPLAY.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c68/contact-row/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/contact-row/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/contact-row/PROOF.md) · [External replay](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/contact-row/EXTERNAL_REPLAY.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c68/contact-row/PRIOR_ART.md)
 
 ---
 
 # C91: average edit distance of two random binary strings
 
-Folder: [c91/round6](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c91/round6)
+Folder: [c91/round6](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c91/round6)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>91</sub> ≥ **0.265988**
 
 Previous best: 0.216276 in PR #273 (Leandre Jack), whose method this extends
 
-Status: Unrefereed; [Tao-table PR #306](https://github.com/teorth/optimizationproblems/pull/306) open, not merged (it earlier claimed 0.263561, [c91/round4](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c91/round4)). Separately written (same agent) verifier, plus a full independent recheck of the finite certificate by a checker from a different model (finite part L1, whole bound L0); two AI reviews; no second party, no optimality claimed
+Status: Unrefereed; [Tao-table PR #306](https://github.com/teorth/optimizationproblems/pull/306) open, not merged (it earlier claimed 0.263561, [c91/round4](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c91/round4)). Separately written (same agent) verifier, plus a full independent recheck of the finite certificate by a checker from a different model (finite part L1, whole bound L0); two AI reviews; no second party, no optimality claimed
 
-**Claim** (opening of [c91/round6/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c91/round6/README.md))
+**Claim** (opening of [c91/round6/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c91/round6/README.md))
 
 ### Candidate, unrefereed C91 >= 0.265988
 
@@ -441,7 +441,7 @@ The rational exponent at 0.265988 is strictly positive. Rounding upward to
 0.265989 is unsafe. The full independent run took 2141.69722533226 seconds;
 it is preserved as hashed evidence, rather than rerun during packaging.
 
-**Method** (first paragraph of [c91/round6/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c91/round6/PROOF.md))
+**Method** (first paragraph of [c91/round6/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c91/round6/PROOF.md))
 
 Candidate and unrefereed. The verified numerical instantiation is given below.
 Credit Leandre Jack's #273 canonical-alignment first moment; Lueker;
@@ -449,22 +449,22 @@ Ganguly–Mossel–Rácz; Bilardi–Schimd; and inherited rounds 2–5. The inhe
 round-5 proof is retained as sources/ROUND5_PROOF.md and is an explicit
 premise for its unchanged frontier, base rules and bit-complement quotient.
 
-**Reviews** (opening of [c91/round6/reviews/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c91/round6/reviews/README.md))
+**Reviews** (opening of [c91/round6/reviews/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c91/round6/reviews/README.md))
 
 ### Review status
 
 - Astra: ACCEPT; see astra.md for scope and skipped checks.
 - CS review: ACCEPT within argument scope; see cs.md (argument referee plus a final-bytes check of the PR text).
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c91/round6/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c91/round6/PROOF.md) · [Verification scope](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c91/round6/VERIFICATION_SCOPE.md) · [Reviews](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c91/round6/reviews/README.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c91/round6/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c91/round6/PROOF.md) · [Verification scope](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c91/round6/VERIFICATION_SCOPE.md) · [Reviews](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c91/round6/reviews/README.md)
 
 ---
 
 # C89b: Ramsey multiplicity constant of K5
 
-Folder: [c89b/round4](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89b/round4)
+Folder: [c89b/round4](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89b/round4)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>89b</sub> < **0.001648970526**
 
@@ -472,7 +472,7 @@ Previous best: Round 3: 0.001653032; Feinstein–Even-Zohar announcement: 0.0016
 
 Status: Candidate and unrefereed; [Tao-table PR #307](https://github.com/teorth/optimizationproblems/pull/307) open, not merged. Two separately written (same agent) exact counters; AI review statuses linked; no human referee
 
-**Claim** (opening of [c89b/round4/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89b/round4/README.md))
+**Claim** (opening of [c89b/round4/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89b/round4/README.md))
 
 ### C89b < 0.001648970526 — round 4 (rigorous exact threshold comparison: scripts/check_cayley_matrix_r4.py)
 
@@ -493,11 +493,11 @@ Written and checked by AI agents under Ricardo Pinho's direction.
 No human referee; no priority or optimality claim. See PRIOR_ART.md,
 including the Feinstein–Even-Zohar announcement.
 
-**Method** (first paragraph of [c89b/round4/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89b/round4/PROOF.md))
+**Method** (first paragraph of [c89b/round4/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89b/round4/PROOF.md))
 
 Candidate and unrefereed. Two separately written (same agent) exact counting implementations agree. They were prepared in one Codex session; both share the same agent authorship, and there is no human referee. No priority or optimality claim is made. See PRIOR_ART.md for the public methods and comparisons.
 
-**Review** (opening of [c89b/round4/review/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89b/round4/review/README.md))
+**Review** (opening of [c89b/round4/review/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89b/round4/review/README.md))
 
 ### Two AI reviews of the frozen round-4 upper candidate
 
@@ -523,23 +523,23 @@ The original read-only reviews are identified by SHA-256 in PROVENANCE.json.
   [Pin2026]) and to its round 3. Its two counting methods were written by that same
   reviewer agent; they are not a further independent review.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89b/round4/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89b/round4/PROOF.md) · [Review](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89b/round4/review/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89b/round4/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89b/round4/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89b/round4/PROOF.md) · [Review](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89b/round4/review/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89b/round4/PRIOR_ART.md)
 
 ---
 
 # C89c: Ramsey multiplicity constant of K6
 
-Folder: [c89c/round3](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89c/round3)
+Folder: [c89c/round3](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89c/round3)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>89c</sub> ≥ **0.000033123924116**
 
 Previous best: 0.000025987 (our round 2); about 1.08e-9 from de Caen with R(6,6) ≤ 165; 3e-12 in PR #279 (Jeetu SK)
 
-Status: Candidate and unrefereed; [Tao-table PR #308](https://github.com/teorth/optimizationproblems/pull/308) open, not merged. The finite inequality was [independently replayed](https://github.com/teorth/optimizationproblems/pull/308#issuecomment-6724784525) by GitHub user arhancanli on 2026-11-08 ([note](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89c/round3/EXTERNAL_REPLAY.md)). Exact order-8 flag-algebra certificate, separately written (same agent) exact checkers; two AI reviews; no human referee, no optimality claimed
+Status: Candidate and unrefereed; [Tao-table PR #308](https://github.com/teorth/optimizationproblems/pull/308) open, not merged. The finite inequality was [independently replayed](https://github.com/teorth/optimizationproblems/pull/308#issuecomment-6724784525) by GitHub user arhancanli on 2026-11-08 ([note](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89c/round3/EXTERNAL_REPLAY.md)). Exact order-8 flag-algebra certificate, separately written (same agent) exact checkers; two AI reviews; no human referee, no optimality claimed
 
-**Claim** (opening of [c89c/round3/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89c/round3/README.md))
+**Claim** (opening of [c89c/round3/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89c/round3/README.md))
 
 ### C89c round 3: C89c >= 0.000033123924116
 
@@ -563,11 +563,11 @@ credit to Conlon, de Caen and Mackey is preserved.
 - `review/README.md`, `PRIOR_ART.md`, `PROVENANCE.json`: review findings and sources.
 - `REPRODUCE.md`, `MANIFEST.json`, `SHA256SUMS`: portable reproduction and integrity.
 
-**Method** (first paragraph of [c89c/round3/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89c/round3/PROOF.md))
+**Method** (first paragraph of [c89c/round3/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89c/round3/PROOF.md))
 
 Candidate and unrefereed. These are computational proof candidates, with separate exact implementations; there has been no external human referee review. Standard flag-algebra reasoning is credited to Razborov, PPSS, KPS and the preceding public certificates. See PRIOR_ART.md.
 
-**Review** (opening of [c89c/round3/review/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89c/round3/review/README.md))
+**Review** (opening of [c89c/round3/review/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89c/round3/review/README.md))
 
 ### Two AI reviews
 
@@ -588,7 +588,7 @@ No human referee has reviewed these candidates.
   fraction, and explicit credit to Jeetu SK (SK2026) and #307 as the three-layer
   member of the graphon family. It could not refresh live priority sources.
 
-**External replay** (opening of [c89c/round3/EXTERNAL_REPLAY.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89c/round3/EXTERNAL_REPLAY.md))
+**External replay** (opening of [c89c/round3/EXTERNAL_REPLAY.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89c/round3/EXTERNAL_REPLAY.md))
 
 ### External replay
 
@@ -608,15 +608,15 @@ Not checked by them: the passage from the finite inequality to the asymptotic
 bound (flag-algebra averaging and the disjoint-extension error term in
 `PROOF.md`), which they read but did not formalize. It is not a peer review.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89c/round3/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89c/round3/PROOF.md) · [Review](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89c/round3/review/README.md) · [External replay](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89c/round3/EXTERNAL_REPLAY.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c89c/round3/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89c/round3/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89c/round3/PROOF.md) · [Review](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89c/round3/review/README.md) · [External replay](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89c/round3/EXTERNAL_REPLAY.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c89c/round3/PRIOR_ART.md)
 
 ---
 
 # C57c: univalent Bloch–Landau constant
 
-Folder: [c57c/round1](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c57c/round1)
+Folder: [c57c/round1](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c57c/round1)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>57c</sub> ≥ **0.61230**
 
@@ -624,7 +624,7 @@ Previous best: 0.5708858 on the table; 0.612242 by F. Wikström ([arXiv:2610.345
 
 Status: Candidate and unrefereed; [Tao-table PR #311](https://github.com/teorth/optimizationproblems/pull/311) records Wikström's 0.612242 ≤ C<sub>57c</sub> < 0.6562681 and adds this row. 489,994-leaf Arb certificate; separately written (same agent) checker; two AI reviews; no human referee
 
-**Claim** (opening of [c57c/round1/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c57c/round1/README.md))
+**Claim** (opening of [c57c/round1/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c57c/round1/README.md))
 
 ### Candidate, unrefereed C57c lower bound
 
@@ -656,14 +656,14 @@ were written by the same agent; this is not independent authorship.
 All arithmetic replay uses python-flint Arb at192 bits. A floating
 Cholesky factor only proposes an exactly checked dyadic congruence.
 
-**Method** (first paragraph of [c57c/round1/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c57c/round1/PROOF.md))
+**Method** (first paragraph of [c57c/round1/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c57c/round1/PROOF.md))
 
 All489994 leaves of the twelve-part artifact passed the separately
 implemented Arb checker. This document collects every analytic reduction
 and finite-cover argument. Classical area/Grunsky and complex analysis
 inputs remain explicit; no independent human review or novelty judgment.
 
-**Review** (opening of [c57c/round1/review/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c57c/round1/review/README.md))
+**Review** (opening of [c57c/round1/review/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c57c/round1/review/README.md))
 
 ### Supplied AI review reports
 
@@ -682,23 +682,23 @@ The release fixes the missing prior-art file, gains/source descriptions,
 checker-authorship wording, phase credit, endpoint convention and ineffective
 controls. Review verdicts have not been retrospectively changed.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c57c/round1/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c57c/round1/PROOF.md) · [Review](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c57c/round1/review/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c57c/round1/PRIOR_ART_RELEASE.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c57c/round1/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c57c/round1/PROOF.md) · [Review](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c57c/round1/review/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c57c/round1/PRIOR_ART_RELEASE.md)
 
 ---
 
 # C47: centred Hardy–Littlewood maximal constant over squares
 
-Folder: [c47/round9](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round9)
+Folder: [c47/round9](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round9)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>47</sub> ≥ **1.7055913150**
 
 Previous best: 1.6855099933 (Lin) on the table; 1.7027237335 by T. S. Tomar ([Zenodo](https://doi.org/10.5281/zenodo.23716077)), whose measure and hole-filling operation this continues; 1.7032090736 proposed by Doldrums / SCiEL in open [PR #341](https://github.com/teorth/optimizationproblems/pull/341), whose move set this uses
 
-Status: Candidate. 452-atom exact certificate with a finite instance; separately written (same agent) verifier. A clean-room AI referee on a different model (GPT-6 Astra) wrote its own exact checker and reached the same fraction, HOLDS ([referee](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round9/referee)); no human review. [Tao-table PR #350](https://github.com/teorth/optimizationproblems/pull/350) open, stacked on #341, not merged; it was first filed at 1.7040280575 ([c47/round2](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round2)). The intermediate certificates 1.7048221231 ([c47/round5](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round5)), 1.7050503714 ([c47/round6](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round6)), 1.7052517050 ([c47/round7](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round7)) and 1.7055022252 ([c47/round8](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round8)) were refereed too. Our earlier 1.70311 is in open [PR #321](https://github.com/teorth/optimizationproblems/pull/321) ([c47/round1](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round1))
+Status: Candidate. 452-atom exact certificate with a finite instance; separately written (same agent) verifier. A clean-room AI referee on a different model (GPT-6 Astra) wrote its own exact checker and reached the same fraction, HOLDS ([referee](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round9/referee)); no human review. [Tao-table PR #350](https://github.com/teorth/optimizationproblems/pull/350) open, stacked on #341, not merged; it was first filed at 1.7040280575 ([c47/round2](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round2)). The intermediate certificates 1.7048221231 ([c47/round5](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round5)), 1.7050503714 ([c47/round6](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round6)), 1.7052517050 ([c47/round7](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round7)) and 1.7055022252 ([c47/round8](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round8)) were refereed too. Our earlier 1.70311 is in open [PR #321](https://github.com/teorth/optimizationproblems/pull/321) ([c47/round1](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round1))
 
-**Claim** (opening of [c47/round9/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round9/README.md))
+**Claim** (opening of [c47/round9/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round9/README.md))
 
 ### C47: centred Hardy–Littlewood maximal constant over squares
 
@@ -706,15 +706,15 @@ C47 is the optimal weak-type (1,1) constant of the centred Hardy–Littlewood ma
 
 This packet gives **C47 ≥ 1.7055913150** (rigorous exact arithmetic, finite_instance.py with verify_exact.py and referee/referee_check.py; L0 for the bound as a whole). The printed improvement is **0.0000890898** over our round-8 **1.7055022252** (live on this PR), **0.0003396100** over our round-7 **1.7052517050**, **0.0005409436** over our round-6 **1.7050503714**, **0.0007691919** over our round-5 **1.7048221231**, **0.0015632575** over our round-2 **1.7040280575** in [this PR (#350)](https://github.com/teorth/optimizationproblems/pull/350) as first filed, **0.0023822414** over Doldrums / SCiEL’s **1.7032090736** in [#341](https://github.com/teorth/optimizationproblems/pull/341), and **0.0024813150** over our round-1 **1.70311** in [#321](https://github.com/teorth/optimizationproblems/pull/321) (rigorous decimal subtraction, comparison.py; prior printed values are cited comparisons). The asterisk remains appropriate: a commissioned AI referee is not a human review or a second-party confirmation in the Tao PR.
 
-The exact periodic ratio is **q = 22878843460258009274861600625288681562329176839147945011303/13414024367090776613897918866165655414442557440000000000000** (rigorous, verify_exact.py). Its decimal expansion begins 1.705591315040… (rigorous downward prefix, sources/claim_facts.py). This is the periodic limit proved by the truncation-and-smearing argument in [PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round9/PROOF.md).
+The exact periodic ratio is **q = 22878843460258009274861600625288681562329176839147945011303/13414024367090776613897918866165655414442557440000000000000** (rigorous, verify_exact.py). Its decimal expansion begins 1.705591315040… (rigorous downward prefix, sources/claim_facts.py). This is the periodic limit proved by the truncation-and-smearing argument in [PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round9/PROOF.md).
 
-The directly checkable finite lower value is **211443076519550480268373711401841739495027970445032200793701027082601051542104989/123970540105353714391020257438714119850224408123125640972549257953280000000000000** (rigorous, finite_instance.py and referee/referee_check.py), with decimal prefix 1.705591315000… (rigorous downward prefix, sources/claim_facts.py). It strictly exceeds the printed bound. The finite construction has h = 2 and N = 333020005938 (rigorous parameters, referee/referee_check.py), with its exact positive rational smear radius in [the finite receipt](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round9/release_validation/finite.json); the enormous finite block is specified by formula without expanding it.
+The directly checkable finite lower value is **211443076519550480268373711401841739495027970445032200793701027082601051542104989/123970540105353714391020257438714119850224408123125640972549257953280000000000000** (rigorous, finite_instance.py and referee/referee_check.py), with decimal prefix 1.705591315000… (rigorous downward prefix, sources/claim_facts.py). It strictly exceeds the printed bound. The finite construction has h = 2 and N = 333020005938 (rigorous parameters, referee/referee_check.py), with its exact positive rational smear radius in [the finite receipt](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round9/release_validation/finite.json); the enormous finite block is specified by formula without expanding it.
 
-**Method** (first paragraph of [c47/round9/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round9/PROOF.md))
+**Method** (first paragraph of [c47/round9/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round9/PROOF.md))
 
 This is the finite-periodic rectangle construction of **[Tomar, v5, Section 6, Lemma 6.2](https://doi.org/10.5281/zenodo.23716077), following Lin**, applied to the rational atoms supplied here. A clean-room AI referee on a different model used its own checks and concluded HOLDS; this is AI review, not human review. `verify_exact.py` is **separately written (same agent)** and imports neither search nor producer code.
 
-**Referee** (opening of [c47/round9/referee/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round9/referee/README.md))
+**Referee** (opening of [c47/round9/referee/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round9/referee/README.md))
 
 ### Clean-room AI referee
 
@@ -730,23 +730,23 @@ From this folder:
 
 The aggregate output is ../release_validation/referee-results.json. This checker emits no per-witness table; no such table is shipped or needed. The original producer proof is retained byte-for-byte in sources/producer-proof.md. Numerical fields in the retained original aggregate and historical run logs are unchanged. Paths printed by historical logs identify original inputs; the public replay uses the defaults above.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round9/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round9/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round9/referee/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c47/round9/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round9/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round9/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round9/referee/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c47/round9/PRIOR_ART.md)
 
 ---
 
 # C22b: tight alternating knot constant
 
-Folder: [c22b/round4](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round4)
+Folder: [c22b/round4](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round4)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>22b</sub> ≤ **7.087559024** (442972439/62500000)
 
 Previous best: 7.31 on the table; 7.2012719* proposed by Youhua Li / Claude Opus 5.5; 7.087662112* proposed by Doldrums / SCiEL in [PR #342](https://github.com/teorth/optimizationproblems/pull/342)
 
-Status: Candidate. Round 4 extends SCiEL's even-radius modulation of our earlier T(2,1104n+3) family: T(2,1324n+3), radius terms up to cos 6u and a phase modulation, with interval certificates; separately written (same agent) verifiers. A clean-room AI referee on a different model (GPT-6 Astra) wrote its own checks and found it holds ([referee](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round4/referee)); no human review. [Tao-table PR #347](https://github.com/teorth/optimizationproblems/pull/347) open, stacked on #342, not merged. Our earlier 7.090412 is in open [PR #324](https://github.com/teorth/optimizationproblems/pull/324) ([c22b/round1](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round1)). Prose reductions need mathematical review
+Status: Candidate. Round 4 extends SCiEL's even-radius modulation of our earlier T(2,1104n+3) family: T(2,1324n+3), radius terms up to cos 6u and a phase modulation, with interval certificates; separately written (same agent) verifiers. A clean-room AI referee on a different model (GPT-6 Astra) wrote its own checks and found it holds ([referee](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round4/referee)); no human review. [Tao-table PR #347](https://github.com/teorth/optimizationproblems/pull/347) open, stacked on #342, not merged. Our earlier 7.090412 is in open [PR #324](https://github.com/teorth/optimizationproblems/pull/324) ([c22b/round1](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round1)). Prose reductions need mathematical review
 
-**Claim** (opening of [c22b/round4/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round4/README.md))
+**Claim** (opening of [c22b/round4/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round4/README.md))
 
 ### Candidate C22b <= 7.087559024 — round 4
 
@@ -768,18 +768,18 @@ did not read or run the producer's code, wrote its own checks, and found
 **Verification level: L0** for the bound as a whole (definitions: https://github.com/rpinho/math-certificates/blob/59eeb7097f806da05187b5f234445be3589204d4/VERIFICATION_LEVELS.md)
 The interval verifiers were separately written by the same AI agent, a clean-room AI referee on a different model wrote its own checks and found it holds, and the prose reductions still need mathematical review.
 
-**Method** (first paragraph of [c22b/round4/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round4/PROOF.md))
+**Method** (first paragraph of [c22b/round4/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round4/PROOF.md))
 
 The finite verifier is **separately written (same agent)** from the numerical search.
 The modulated-radius and phase steps here are prose. A clean-room AI referee
 on a different model wrote its own checks and found the claim holds; see
-[its report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round4/referee/REFEREE.md). Human mathematical review is still needed.
+[its report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round4/referee/REFEREE.md). Human mathematical review is still needed.
 This is a proposed computer-assisted argument, not a proof-assistant theorem.
 Doldrums / SCiEL / CPIL lab MBZUAI's even-radius modulation of our #324 is
 the starting point. Their exact coefficients were inaccessible; see
 PRIOR_ART.md. No third-party construction/search/verifier code was run.
 
-**Referee** (opening of [c22b/round4/referee/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round4/referee/README.md))
+**Referee** (opening of [c22b/round4/referee/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round4/referee/README.md))
 
 ### Clean-room AI referee — GPT-6 Astra via Codex
 
@@ -794,25 +794,25 @@ thickness over bodies, caps and joins, embeddedness and pair exhaustion,
 actual-speed length, knot type for every n, its own n=1 determinant,
 uniform cap allowance, and the limit. It found no caveat affecting the
 specified mathematical upper bound; human mathematical review is still
-needed. See [REFEREE.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round4/referee/REFEREE.md) for the full argument and access limits.
+needed. See [REFEREE.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round4/referee/REFEREE.md) for the full argument and access limits.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round4/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round4/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round4/referee/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c22b/round4/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round4/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round4/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round4/referee/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c22b/round4/PRIOR_ART.md)
 
 ---
 
 # C38: connective constant of the square lattice
 
-Folder: [c38/bridges-span18](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18)
+Folder: [c38/bridges-span18](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: μ(Z²) ≥ **2.6275696** (8388608/3192535)
 
 Previous best: 2.6273856 on the table (Numaro, span 17); 2.627483880 claimed by V. Plánočka (public, unrefereed)
 
-Status: Candidate and unrefereed. Kesten irreducible-bridge renewal bound with span-18 strips and a disjoint span 19–30 supplement, extending Numaro's certificate with Jensen's finite-family criterion; separately written (same agent) verifiers; an adversarial AI referee on a different model (GPT-6 Astra) recounted independently through span 15 ([c38/review](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/review), HOLDS WITH CAVEATS: five span 16–18 inputs not independently regenerated), and a clean-room replay on a different model (GPT-6) reproduced 8388608/3192535 from the proof text and certificates alone ([REPLAY.json](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18/REPLAY.json)). The renewal argument needs mathematical review. [Tao-table PR #328](https://github.com/teorth/optimizationproblems/pull/328) open, not merged
+Status: Candidate and unrefereed. Kesten irreducible-bridge renewal bound with span-18 strips and a disjoint span 19–30 supplement, extending Numaro's certificate with Jensen's finite-family criterion; separately written (same agent) verifiers; an adversarial AI referee on a different model (GPT-6 Astra) recounted independently through span 15 ([c38/review](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/review), HOLDS WITH CAVEATS: five span 16–18 inputs not independently regenerated), and a clean-room replay on a different model (GPT-6) reproduced 8388608/3192535 from the proof text and certificates alone ([REPLAY.json](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18/REPLAY.json)). The renewal argument needs mathematical review. [Tao-table PR #328](https://github.com/teorth/optimizationproblems/pull/328) open, not merged
 
-**Claim** (opening of [c38/bridges-span18/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18/README.md))
+**Claim** (opening of [c38/bridges-span18/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18/README.md))
 
 ### C38: span-18 bridge candidate release
 
@@ -827,7 +827,7 @@ Candidate and unrefereed:
 
 The verifier is **separately written (same agent)**. No novelty judgment, separate authorship, refereeing, or formal proof-system acceptance is claimed.
 
-The [best frozen certificate](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18/frozen/c38_power_secant/VERIFIED.json), [written proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18/frozen/c38_power_secant/input/PROOF_POWER_SECANT.md), and [22 actual corruption controls](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18/frozen/c38_power_secant/REJECTION_CONTROLS.json) pass on the pod and the copied Mini artifact. The exact lower value at the reciprocal of this bound is approximately **1.0000001143720572**. Acceptance uses its exact rational numerator and denominator, with no decimal tolerance. The exact excess above the requested bound is 17783/255402800.
+The [best frozen certificate](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18/frozen/c38_power_secant/VERIFIED.json), [written proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18/frozen/c38_power_secant/input/PROOF_POWER_SECANT.md), and [22 actual corruption controls](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18/frozen/c38_power_secant/REJECTION_CONTROLS.json) pass on the pod and the copied Mini artifact. The exact lower value at the reciprocal of this bound is approximately **1.0000001143720572**. Acceptance uses its exact rational numerator and denominator, with no decimal tolerance. The exact excess above the requested bound is 17783/255402800.
 
 The best input-manifest SHA256 is
 
@@ -835,11 +835,11 @@ The best input-manifest SHA256 is
 
 **The full expanded integer coefficient vector is unmaterialized.** Its coefficients are specified exactly as counts of the finite family below, and its generating value is enclosed with exact rational arithmetic. Rational enclosure endpoints are not coefficient counts. An optional length-24 prefix was expanded and fully checked; it is not needed for the best bound.
 
-**Method** (first paragraph of [c38/bridges-span18/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18/PROOF.md))
+**Method** (first paragraph of [c38/bridges-span18/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18/PROOF.md))
 
 Candidate, unrefereed; verification level L0 for the bound as a whole. The enumeration and verifier were separately written by the same AI agent. The mathematical reductions below are prose proofs requiring mathematical review. Frozen inputs and certificate values are unchanged.
 
-**Clean-room replay** (opening of [c38/bridges-span18/replay/report.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18/replay/report.md))
+**Clean-room replay** (opening of [c38/bridges-span18/replay/report.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18/replay/report.md))
 
 ### C38 clean-room replay — PASS
 
@@ -849,23 +849,23 @@ Verdict: **PASS.** This independent clean-room computation reproduced the bound
 
 with the complete frozen rational S(1353) reproduced exactly and S(1353) >= 1 checked using integers/Fractions. Every required native enumeration finished, including spans 16, 17, and 18. No certificate enclosure was left as an unverified numerical premise. The expanded coefficient vector was not materialized; this is a complete replay of the specified finite-family point enclosures and exact final assembly.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18/PROOF.md) · [Clean-room replay](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18/replay/report.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c38/bridges-span18/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18/PROOF.md) · [Clean-room replay](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18/replay/report.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c38/bridges-span18/PRIOR_ART.md)
 
 ---
 
 # C49: 3-sunflower-free capacity
 
-Folder: [c49/round1](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c49/round1)
+Folder: [c49/round1](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c49/round1)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>49</sub> ≥ **1.5678643845** ((64728+√3019700660)<sup>1/26</sup>, rounded down)
 
 Previous best: 1.5678599* on the table (D. Koshta with Claude, [merged PR #260](https://github.com/teorth/optimizationproblems/pull/260)), whose 28-point two-pendant block this builds on
 
-Status: Candidate. The same block and gluing theorem, with the 21 exceptional sets replaced by 32 new seven-element sets (252303 sets, N<sub>00</sub> up by 11). Separately written (same agent) checker; a clean-room AI referee on a different model (GPT-6 Astra) wrote its own exhaustive check and reproduced Koshta's block first ([referee](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c49/round1/referee)), HOLDS WITH CAVEATS (decimal rounding only). [Tao-table PR #370](https://github.com/teorth/optimizationproblems/pull/370) open, not merged. No human review or optimality claimed
+Status: Candidate. The same block and gluing theorem, with the 21 exceptional sets replaced by 32 new seven-element sets (252303 sets, N<sub>00</sub> up by 11). Separately written (same agent) checker; a clean-room AI referee on a different model (GPT-6 Astra) wrote its own exhaustive check and reproduced Koshta's block first ([referee](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c49/round1/referee)), HOLDS WITH CAVEATS (decimal rounding only). [Tao-table PR #370](https://github.com/teorth/optimizationproblems/pull/370) open, not merged. No human review or optimality claimed
 
-**Claim** (opening of [c49/round1/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c49/round1/README.md))
+**Claim** (opening of [c49/round1/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c49/round1/README.md))
 
 ### C49 round-one candidate certificate
 
@@ -894,11 +894,11 @@ These bounds are certified by integer surd comparisons in `release_validation/ad
 
 The block has 28 points and distinct ports 0 and 1. Replace the incumbent's 21 exceptional members by 32 seven-element sets, sixteen wholly inside each pendant: N00 increases by 11. The 252271 common members include all 250659 product members and all 806 lifted augmentation members at each pendant. The augmentation is not merely fifteen unlifted sets per pendant. The exact subtraction is in `certificates/best_delta.json`.
 
-**Method** (first paragraph of [c49/round1/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c49/round1/PROOF.md))
+**Method** (first paragraph of [c49/round1/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c49/round1/PROOF.md))
 
 Let f(n) be the largest size of a family of subsets of an n-point set with no three distinct members A,B,C satisfying A∩B=A∩C=B∩C. Define C49=limsup f(n)^(1/n). Sperner (no proper containment between members) is a hypothesis of the gluing construction; it is not an added restriction on the capacity definition.
 
-**Referee** (opening of [c49/round1/referee/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c49/round1/referee/README.md))
+**Referee** (opening of [c49/round1/referee/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c49/round1/referee/README.md))
 
 ### Clean-room AI referee archive
 
@@ -906,15 +906,15 @@ REFEREE.md and PRIOR_ART.md are byte-for-byte originals from the commissioned cl
 
 The source scripts and scientific logs are copied from that job. `independent.cpp` is the referee's own code; its filename is historical. The archive does not redistribute the referee's third-party source snapshots or process inventories. Data needed for replay are supplied by the packet certificate, delta and MIT baseline; REPRODUCE.md stages them in a scratch directory. The original 1997 PDF was not inspected; REFEREE.md proves the operative gluing statement explicitly. Hashes identify the supplied reports and inputs; they do not attest historical isolation or model identity.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c49/round1/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c49/round1/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c49/round1/referee/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c49/round1/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c49/round1/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c49/round1/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c49/round1/referee/README.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c49/round1/PRIOR_ART.md)
 
 ---
 
 # Erdős #1183: the Erdős–Ulam two-colouring sublattice function
 
-Folder: [erdos/1183](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/erdos/1183)
+Folder: [erdos/1183](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1183)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: **f(11)=7, f(12)=7, f(13)=8, f(14)=8, f(15)=9, f(16)=9, f(17)=10, f(18)=10, f(19)=11; f(20)≤12; f(21)=12; f(22)≤13; 13≤f(23)≤14; f(24)=14**
 
@@ -922,7 +922,7 @@ Previous best: Exact values through n=20 were already stated by Bhattacharjee an
 
 Status: Candidate; no human review. SAT/DRAT for n=11..14; exact weighted-poset trees and separately written checker for n=15..24. Method after ipezygj’s SAT + DRAT proof for #609. Clean-room referees: GPT-6 Astra at n=11; Claude Opus 5.5 at n=12, n=13/14, n=15..20 and n=21..24. HOLDS WITH CAVEATS: **f(20)=12 and f(22)=13 depend on BMB lem:window20**, replayed from authors’ checker but mixed levels not reimplemented; without it **11≤f(20)≤12 and 12≤f(22)≤13**. **f(23) stays 13..14; rank minimum exactly 14**. f(24) lower bound uses flower, without window20
 
-**Claim** (opening of [erdos/1183/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/erdos/1183/README.md))
+**Claim** (opening of [erdos/1183/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1183/README.md))
 
 ### Erdős #1183: candidate values through f(24), with dependencies at f(20) and f(22)
 
@@ -930,33 +930,123 @@ The original packet gives the four finite equalities **f(11)=7**, **f(12)=7**, *
 
 **Priority.** The exact values of f(n) for every n up to twenty were already stated by Deep Bhattacharjee and Ushashi Bhattacharya in their BLLM manuscript (Theorem `fvalues`, using the same weighted-poset reduction as its Lemma `levelposet`), [public in creelie/eBLLM](https://github.com/creelie/eBLLM/blob/241326bbba4726afde74ae1858265878b2176c59/paper/bllm/paper/sections/sec10d_crossing.tex) and present in that file since its commit of 19 October 2026. We missed it in our earlier searches. Our values from eleven to twenty are therefore reproductions, found separately and published with certificates (SAT/DRAT proofs from eleven to fourteen, replayable proof trees from fifteen to twenty); earlier versions of this packet wrongly said that exact values were known only up to ten. The values from twenty-one to twenty-four go beyond that manuscript. The odd-n lower bound used here is also proved in Lean 4 by the OpenRefute project, as BLLM cites.
 
-**Method** (first paragraph of [erdos/1183/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/erdos/1183/PROOF.md))
+**Method** (first paragraph of [erdos/1183/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1183/PROOF.md))
 
 Write M(χ) for the largest cardinality of a nonempty monochromatic family of subsets closed under binary union and intersection. Then f(n)=minχ M(χ). The minimum includes every colouring of all subsets. Rank colourings below are particular constructions giving upper bounds, not a restriction on that minimum. The n=11 and n=12 queries ask for at least eight members; the n=13 and n=14 queries ask for at least nine. These thresholds exclude every larger closed family as well, without assuming that a larger lattice contains a sublattice of exactly the threshold size.
 
-**Referee** (opening of [erdos/1183/referee/n21n24/REFEREE.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/erdos/1183/referee/n21n24/REFEREE.md))
+**Referee** (opening of [erdos/1183/referee/n21n24/REFEREE.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1183/referee/n21n24/REFEREE.md))
 
 Shipped: referee report on the candidate values f(21)=12, f(22)=13 (conditional on BMB lem:window20), 13≤f(23)≤14 and f(24)=14 for Erdős #1183. All four hold as stated, with the caveats listed at the end.
 
 Referee job e1183n2124_referee, 17 Nov 2026. I wrote all the code here myself: `src/wp.c` (exact weighted-poset search; every positive witness is converted to coordinate masks and checked by direct pairwise closure), `src/brute.c` (all sublattices of 2^[n], n≤6), `src/check_witnesses.py` (direct closure check of the producer's families) and `src/words12.py`. I did not read, import or run any code from ../e1183n21, ../e1183n15, ../e1183n1314_referee/src or ../e1183n1520_referee/src. I used ../e1183n21/certificates/upper_n2{1,2,3,4}.json as data only (words and witness masks), and the word list in ../e1183n1520_referee/out/max_words.txt as data for the n=11..20 controls. Raw outputs are in `out/`. Fetched sources are in `sources/` and `ext/window20/`, with SHA256SUMS.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/erdos/1183/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/erdos/1183/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/erdos/1183/referee/n21n24/REFEREE.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/erdos/1183/PRIOR_ART.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1183/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1183/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1183/referee/n21n24/REFEREE.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1183/PRIOR_ART.md)
+
+---
+
+# Erdős #1182: the triangle Ramsey goodness threshold F(n)
+
+Folder: [erdos/1182-495](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1182-495) (Round 1: [erdos/1182](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1182))
+
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
+
+Bound: **F(n) ≤ ⌊99n/20⌋ − 1 < 4.95n for all n ≥ 450,000** (including odd n; [erdos/1182-495](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1182-495), producer Gemini 4 Carbon High, clean-room referee GPT-6.2 Astra HOLDS). Round 1: F(n) ≤ 5n − 1 for all n ≥ 550,000 ([erdos/1182](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1182))
+
+Previous best: Stephan Brandt’s published 84n (and 11.75n announced without proof); Kataria’s unrefereed 5.025n ([Sovi11/erdos-1182](https://raw.githubusercontent.com/Sovi11/erdos-1182/6d4f78c/BOUNDS.md))
+
+Status: Candidate; no human review. Bare d=10 configuration model with Kempe-swap dichotomy on Φ-minimal balanced C<sub>5</sub> embeddings and three 160-bit Arb certificates (4,308 leaves). Produced by GPT-6.2 Sol; clean-room cross-family referees with producer code withheld: Claude Opus 5.5 (Round 1; caught reversed Case I cutoff) and Gemini 4 Carbon High (Round 2 on repaired Case I, HOLDS, 10/10 corruption controls rejected)
+
+**Claim** (opening of [erdos/1182-495/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1182-495/README.md))
+
+### Erdos Problem #1182: Unconditional Sub-5n Upper Bound $F(n) \le \lfloor 99n/20 \rfloor - 1 < 4.95n$
+
+I prove an unconditional upper bound on the Erdos-Sauer-Brandt threshold $F(n)$ for Erdos Problem #1182 (Ramsey-size-linear / $C_5$-blowup-avoiding graphs):
+
+$$F(n) \le \left\lfloor \frac{99}{20} n \right\rfloor - 1 < 4.95\,n \qquad \text{for every integer } n \ge 450000 \text{ (both even and odd } n\text{)}.$$
+
+Prior bounds are Brandt (1996, $84n$), Nikiforov and Rousseau (2009, $50n - 1$), Kataria (2026 unrefereed, $5.025n$), and my Round 1 refereed bound $5n - 1$ for $n \ge 550000$ (commit `2c87d8e`). The new bound lowers both the asymptotic slope below $5$ and the explicit threshold $n_0$ by $100000$.
+
+This is AI work. No human has checked it. **Lean status:** `none`.
+
+**Method** (first paragraph of [erdos/1182-495/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1182-495/PROOF.md))
+
+**Theorem 1.** *Let $F(n)$ denote the largest integer $q$ such that every connected simple graph $G$ on $n$ vertices with at most $q$ edges satisfies $R(K_3, G) = 2n - 1$. For every integer $n \ge 450{,}000$ (both even and odd $n$),*
+$$F(n) \le \left\lfloor \frac{99}{20} n \right\rfloor - 1 < 4.95\,n.$$
+
+**Referee** (opening of [erdos/1182-495/referee/REFEREE.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1182-495/referee/REFEREE.md))
+
+VERDICT: HOLDS
+
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1182-495/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1182-495/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1182-495/referee/REFEREE.md) · [Round 1](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/1182/README.md)
+
+---
+
+# Erdős #293: missing denominators of nine-term unit-fraction decompositions
+
+Folder: [erdos/293-k9-gaps](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps) (first omission replay: [replays/erdos293-v9](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/replays/erdos293-v9))
+
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
+
+Bound: **13,878,989 is the second missing denominator greater than one**. Complete below 20,000,000: 63 exhaustive prime zeros and 560 exact witnesses over the 623 gaps above 13,856,993, so all 64 missing denominators of D₉ in [2, 20,000,000] are known and every one is prime
+
+Previous best: EconLearn’s first omission 13,856,993 and certificate release, including ntysdd’s certificates
+
+Status: Candidate. GPT-6.2 Sol C/GMP search, exact certificate and shard checks, and a separate Claude Opus 5.5 reading of the soundness argument. No human review
+
+**Claim** (opening of [erdos/293-k9-gaps/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/README.md))
+
+### Erdős #293. The second missing denominator of D₉
+
+**Candidate. AI work.** GPT-6.2 Sol wrote my C/GMP solver and read nobody else’s code for the search. Claude Opus 5.5 separately read the soundness argument. No human has checked it. [Review record](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/VERDICT_for_ledger.txt).
+
+I found no representation of 1 as nine distinct unit fractions that contains 1/13,878,989. I checked an exact representation for every integer strictly between 13,856,993 and 13,878,989. With the earlier result that 13,856,993 is the least missing denominator greater than one, this gives **13,878,989 as the second smallest integer missing from D₉ among integers greater than one**, where D₉ is the set of denominators occurring in such representations. [First omission replay](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/replays/erdos293-v9), [Erdős #293](https://www.erdosproblems.com/293).
+
+I continued through all release gaps below 20,000,000 in increasing order across Rounds 1 through 6. The table is now **complete below 20,000,000**: across all 623 previously omitted labels above 13,856,993 through 19,997,711, there are **63 exhaustive prime zeros** (starting with 13,878,989 and ending with 19,944,241) and **560 exact 9-term witnesses**, with **0 unsettled gaps** remaining. Together with EconLearn's first omission 13,856,993, all **64 missing denominators** of D_9 in `[2, 20,000,000]` are now classified and every one is prime. [Gap table](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/gaps.tsv), [round-6 completion note](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/ROUND6.md), [round-6 audit](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/VERDICT_round6.txt), [round-2 note](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/ROUND2.md), [public baseline](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/PRIOR_ART.md).
+
+**Method** (first paragraph of [erdos/293-k9-gaps/SOUNDNESS_COMPOSITE.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/SOUNDNESS_COMPOSITE.md))
+
+The search adapts my earlier Erdős #293 solver, whose rational bounds, reduction, and two-term proof are in [the previous soundness note](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/SOUNDNESS.md). The release checker and the full control enumerator are separate from the fixed-denominator search.
+
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/README.md) · [Gap table](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/gaps.tsv) · [Soundness](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/SOUNDNESS_COMPOSITE.md) · [Rounds 3 to 6](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/ROUND6.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/erdos/293-k9-gaps/PRIOR_ART.md)
+
+---
+
+# Conjectures from recent arXiv papers
+
+Folder: [conjectures](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures)
+
+Between 24 and 27 November 2026 my agents took conjectures stated in recent arXiv papers and tried to prove or refute them, each result with an exact checker and a clean-room AI referee. A priority audit on 27 November found that only 3 of the 12 published packets were first: van Berkel and Bosma Conjecture 4, the Supkar and Yaddanapudi counterexample, and Selvaraja Conjectures 5.9 and 3.6. The other 9 had already been settled, in whole or in part, by others before I published them. Their folders now say so in the first line and credit who had it first; they are reproductions or partial supplements, not new results. The table below is the Conjectures table from [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md), copied as is.
+
+| Conjecture | Result | Lean | Verification | Files |
+|---|---|---|---|---|
+| **van Berkel & Bosma** ([arXiv:2609.16843v2](https://arxiv.org/abs/2609.16843v2), Conjecture 4): 3-sumfree sequences $S_{1,d-1,2d-1}$ | **Disproved at $d=4$ and every $d\ge 6$; full family resolved for all $d\ge 3$**: $(k,p,m)=(5,1,5)$ at $d=3$, **$(7,3,27)$** at $d=4$ (vs printed period $4$, mod $31$), $(13,10,104)$ at $d=5$, and **$(d+3,d,8d-3)$** for all $d\ge 6$ (vs printed mod $8d-1$) | none | Candidate; no human review. Producer Gemini 4 Carbon High; clean-room cross-family referee GPT-6.2 Astra confirmed theorem and caught `blocks.U1` schema typo + 6 small-case prose slips; all 7 fixes applied and `referee_verify_repaired.py` exited 0 with 0 disagreements (40 exact cases, 1,174 mutants rejected) | [conjectures/2609-16843-conj4](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2609-16843-conj4) |
+| **Selvaraja** ([arXiv:2611.20820v1](https://arxiv.org/abs/2611.20820v1), Conjectures 5.9 and 3.6): close-skew length and the Vietoris–Rips theta-number | **Proved for every $n>r\ge1$**: maximum close-skew length and $\theta(\mathrm{VR}(I_n;r))$ both equal $2^r$. Shukla’s collapsibility equality follows. | none | Candidate. Proof by GPT-6.2 Astra (Codex). Clean-room audit by Claude Opus 5.5 returned **VERDICT: HOLDS**. Both exact checkers exited zero. No human mathematician has reviewed it. | [conjectures/2611-20820-conj59-36](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2611-20820-conj59-36) |
+| **Supkar & Yaddanapudi** ([arXiv:2611.32684v1](https://arxiv.org/abs/2611.32684v1), Section 5): non-negativity of γ(G) for 3-connected non-bipartite graphs | **Disproved**: an 11-vertex, 20-edge 3-connected non-bipartite graph has γ(G) = −1 | complete (standalone, zero Mathlib) | Candidate. Counterexample by GPT-6.2 Astra (Codex). Clean-room audit by Gemini 4 Carbon High returned **VERDICT: HOLDS** with an exact integer checker. No human mathematician has reviewed it. | [conjectures/2611-32684-gamma](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2611-32684-gamma) |
+| **Higuita-Diaz, López & Roldán-Correa** ([arXiv:2611.14718v2](https://arxiv.org/abs/2611.14718v2), Conjecture 5.2): subcubic RSA vs static MIS stochastic dominance | **Partial supplement.** [AmirMakir](https://github.com/AmirMakir/broken-conjectures/commit/98ebee5037f45ab9812aa220518852e449438b28) gave the same tree on 2026-11-25 UTC and established the sharp minimum of 15 in a later [through-order-14 census](https://github.com/AmirMakir/broken-conjectures/commit/bc5bc1d5fb0baab9ec9ea422087432865bbcfabc). [Ojas Mor](https://github.com/lykoslopezrivera-blip/Stochastic_Dominance_DPP_Graphs/issues/1) also disclosed the tree. This packet adds the order-15 classification, two unicyclic witnesses and the general tree family. The packet's census gives 0 counterexamples for $n\le 14$ (358,891 connected subcubic graphs) and **exactly 3** at $n=15$ (1,016,740 graphs), led by a 15-vertex 14-edge subcubic tree $F_3$ (`P(seq <= 6) = 64/3375 > 1/55 = P(stat <= 6)`, plus two 15-edge unicyclic witnesses with strict global static dominance and infinite tree family $F_m$, $m\ge 3$) | none | Candidate; no human review. Producer Gemini 4 Carbon High; clean-room cross-family referee GPT-6.2 Astra independently re-enumerated all 1,375,631 connected subcubic graphs $n\le 15$ and replayed 4,604,216 size bins, catching a transcription typo in `rsa_pmf["7"]` (`7993019/10135125`) and `CE#3` minimality; repaired `certificates/witness.json` passed `referee_verify_repaired.py --strict-certificate` (exit 0) | [conjectures/2611-14718-conj52](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2611-14718-conj52) |
+| **Ma, Sahbi & Zhang** ([arXiv:2609.25128v4](https://arxiv.org/abs/2609.25128v4), Conjecture 9.2): Nordhaus-Gaddum upper bound for sub-quorum colorings | **Reproduction.** [Derek Blair](https://github.com/derekblair/math-proofs/pull/54) proved the same sharp $n+2$ bound on 2026-11-25 UTC. **Proved unconditionally for all $n\ge 2$**: $\psi_{sq}(G) + \psi_{sq}(\overline{G}) \le n + 2$ via reciprocal class-size vertex weights and sharp handshaking bound $\Sigma(H) \le m + 5/2$ (attained on $P_3$ inside $S_{2,2}$) | none | Candidate; no human review. Producer Gemini 4 Carbon High; clean-room cross-family referee GPT-6.2 Astra upheld Theorem 1 and Lemmas 1-3 with zero mathematical gaps, independently checking 33,868 graphs $n\le 6$, all 268,435,456 labeled graphs at $n=8$, 16,348,842 degree sequences $n=8..15$, and 288,265 classes $n=2..9$ (Remark 3 wording precision applied) | [conjectures/2609-25128-conj92](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2609-25128-conj92) |
+| **van Berkel & Bosma** ([arXiv:2609.18522v1](https://arxiv.org/abs/2609.18522v1), Conjectures 5 & 9): 2-sumfree period & preperiod formulas | **Partial supplement.** [TrureTuring](https://github.com/the-omega-institute/trureturing/issues/34312#issuecomment-7178554093) refuted Conjecture 9 on 2026-11-26 UTC. This packet adds a different witness and an explicit Conjecture 5 refutation using a previously tabulated period. **Both formulas disproved as stated**: Conjecture 5 fails at $S_{4,11}$ ($d=7$: formula $p=9$ vs certified minimal **$(11,10,33)$**); Conjecture 9 fails at $S_{5,10}$ ($d=5$: formula $k=7$ vs certified minimal **$(6,6,24)$**, plus `1,645` mismatches in 4,800-pair grid including negative `-23` at $S_{12,30}$) | none | Candidate; no human review. Producer GPT-6.2 Astra; clean-room cross-family referee Gemini 4 Carbon High returned **VERDICT: HOLDS** with zero defects via pure-`int`/`Fraction` dual proofs, 15 positive controls, 16/16 negative controls, and all 1,845 printed table entries | [conjectures/2609-18522-conj5-9](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2609-18522-conj5-9) |
+| **Lewis & Won** ([arXiv:2609.03081v1](https://arxiv.org/abs/2609.03081v1), Conjecture 3.14): layered maxima for permutation-grid rook counts | **Partial supplement.** [Xiaojian Zeng](https://raw.githubusercontent.com/ArtificialZeng/AI-Has-Taste/f3ae144b74f238f22c2b84b5283cb14ce912fd33/reproducible_source_code/BigWIN2/BW2-B41-P04/source/manuscript/main.tex) proved the $n=9$ case on 2026-09-16 UTC. This packet adds the $n=17,18$ refutations and $n=10$–$14$ maxima. **Disproved at $n=17$ (and $n=18$)**: 2-shell layered shape `(5,3,1,3,5)` gives **`104,476,798,194,769`** rook placements vs single-shell `(m,1*,m)` max `103,460,138,813,701` (`+1,016,659,381,068`); also proved Conjecture 3.14 holds unconditionally through $n=14$ (`r(10..14) = 255569..10353226769`) | none | Candidate; no human review. Producer Gemini 4 Carbon High; clean-room cross-family referee GPT-6.2 Astra confirmed $n=17, 18$ via matching DP, Ryser, and 7-square formula, independently re-proved $r(10..14)$ through $S_{14}$, verified all 136 endpoint pairs at $n=17$, and rejected 5/5 mutations (prose/scope clarifications applied in README) | [conjectures/2609-03081-conj314](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2609-03081-conj314) |
+| **Höngesberg, Konvalinka & Linusson** ([arXiv:2610.07442v1](https://arxiv.org/abs/2610.07442v1), Conjecture 4.5) | **Reproduction.** [TrureTuring](https://github.com/the-omega-institute/trureturing/pull/14905) posted the same four-term count for all admissible dimensions in a PR opened on 2026-10-09 UTC. [Knowledge Sense](https://raw.githubusercontent.com/KnowledgeSense/math/91f1bdd2a10abeb28acc742ce3ee884874caf124/preprints/Enumeration-of-Extendably-312-Avoiding-Alternating-Sign-Rectangles-October-12-2026/lean/README.md) also proved the full formula. | none | Algebraic generating-function proof. Exact standalone referee check. No human review. | [conjectures/2610-07442-conj45](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2610-07442-conj45) |
+| **Yaqubi & Mirzavaziri** ([arXiv:2611.05623v1](https://arxiv.org/abs/2611.05623v1), Conjectures 6.1–6.4) | **Reproduction.** [TrureTuring](https://github.com/the-omega-institute/trureturing/pull/33580) proved 6.1 in a PR opened on 2026-11-23 UTC. [Conjecture Desk](https://github.com/jmadeiros/conjecture-desk/commit/95760bfed3805073e9cdff9440688287fbe0240f) proved 6.2–6.4, including exactness and all five final congruences, in a commit dated 2026-11-25 UTC. | none | Exact-integer referee report and Sturm checks. No human review. | [conjectures/2611-05623-sec6](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2611-05623-sec6) |
+| **Banerjee & Smoot** ([arXiv:2611.09681v1](https://arxiv.org/abs/2611.09681v1), Conjecture 6.1) | **Reproduction.** [AmirMakir](https://github.com/AmirMakir/broken-conjectures/commit/234e28fc050dc60282f18f3a185e669d4f7cd335) gave the same two exact coefficient counterexamples on 2026-11-25 UTC. This packet formalizes both parts in Lean. | verified | Exact-integer replay by two algorithms. No human review. | [conjectures/2611-09681-conj61](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2611-09681-conj61) |
+| **Crew et al.** ([arXiv:2611.13273v1](https://arxiv.org/abs/2611.13273v1), Conjectures 1 and 2) | **Reproduction.** [TrureTuring](https://github.com/the-omega-institute/trureturing/pull/31959) proved weak real monotonicity in a PR opened on 2026-11-19 UTC. The endpoint inequality follows. This packet also gives a strict derivative statement. | verified | Marked-vertex proof and exact-integer referee checks. No human review. | [conjectures/2611-13273-conj1-2](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2611-13273-conj1-2) |
+| **Coste, Csikós & Viennot** ([arXiv:2611.18391v1](https://arxiv.org/abs/2611.18391v1), Section 5) | **Reproduction.** [Fellows’ lemma, published by Chimani, Derka, Hliněný and Klusáček](https://arxiv.org/abs/1107.0176v1) in a preprint dated 2011-07-01 UTC implies both the coloring result and the full outerplanar-emulator theorem. | none | Forbidden-minor proof with exact-integer referee checks. No human review. | [conjectures/2611-18391-sec5](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/conjectures/2611-18391-sec5) |
 
 ---
 
 # C30: growth rate of 1324-avoiding permutations
 
-Folder: [c30/round1](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c30/round1)
+Folder: [c30/round1](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c30/round1)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>30</sub> ≥ **10.42** (521/50), conditional
 
 Previous best: 10.27 on the table; 10.412263 by Norton (unrefereed arXiv v3), recorded in open [PR #313](https://github.com/teorth/optimizationproblems/pull/313) (maximusrufus)
 
-Status: Candidate and unrefereed, and conditional on BBEP and Norton's unrefereed v3. First-moment two-leaf bound with a value-word lemma; exact Arb certificate with a thin margin (about 1.8e-4); separately written (same agent) checker; two AI reviews; no human referee. Two finite lemmas are in Lean ([c30/lean-m1](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c30/lean-m1)); the bound is not. [Tao-table PR #317](https://github.com/teorth/optimizationproblems/pull/317) open, stacked on #313. The final evaluation was [independently replayed](https://github.com/teorth/optimizationproblems/pull/317#issuecomment-6724784097) by GitHub user arhancanli on 2026-11-08; the mathematics was not checked ([note](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c30/round1/EXTERNAL_REPLAY.md))
+Status: Candidate and unrefereed, and conditional on BBEP and Norton's unrefereed v3. First-moment two-leaf bound with a value-word lemma; exact Arb certificate with a thin margin (about 1.8e-4); separately written (same agent) checker; two AI reviews; no human referee. Two finite lemmas are in Lean ([c30/lean-m1](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c30/lean-m1)); the bound is not. [Tao-table PR #317](https://github.com/teorth/optimizationproblems/pull/317) open, stacked on #313. The final evaluation was [independently replayed](https://github.com/teorth/optimizationproblems/pull/317#issuecomment-6724784097) by GitHub user arhancanli on 2026-11-08; the mathematics was not checked ([note](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c30/round1/EXTERNAL_REPLAY.md))
 
-**Claim** (opening of [c30/round1/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c30/round1/README.md))
+**Claim** (opening of [c30/round1/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c30/round1/README.md))
 
 ### A candidate lower bound of 10.42 for C30
 
@@ -966,17 +1056,17 @@ Status: Candidate and unrefereed, and conditional on BBEP and Norton's unreferee
 
 The **two-leaf first-moment bound** gives an actual density of about **0.06627960057**, below **1/10**. The **family-selection argument** uses this mean and positivity of generating functions to obtain a full-growth subsequence whose members obey a two-leaf cap. It does not infer concentration from a mean. Physical arch concatenation then gives balanced dominoes satisfying common per-cell inequalities. Finally, an **integer majorization envelope**, including its parity correction, provides a uniform placement lower bound for every permitted ordered strip pattern. Its synthetic two-leaf coordinate is **7/50**, distinct from the mean and the selection threshold.
 
-**Method** (first paragraph of [c30/round1/PROOF.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c30/round1/PROOF.md))
+**Method** (first paragraph of [c30/round1/PROOF.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c30/round1/PROOF.md))
 
 These are the initial baseline and reduced-model notes. The final candidate proof of 521/50 is in **FIRST_MOMENT_PROOF.md**, with its separate candidate certificate. The baseline certificate discussed below replays the **external Norton v3 baseline**, conditional on the combinatorial results listed in REFEREE.md. See RELEASE_NOTES.md for the source-digest provenance check used by this trimmed release.
 
-**Referee** (opening of [c30/round1/REFEREE.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c30/round1/REFEREE.md))
+**Referee** (opening of [c30/round1/REFEREE.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c30/round1/REFEREE.md))
 
 ### Norton v3 referee notes — candidate, unrefereed
 
 Audit by the same agent as the arithmetic replay. This is not human refereeing and is not a novelty judgment. Frozen source: `sources/norton-v3.html`, hash in BAR.json. Source was reopened from arXiv on 2026-11-03. Results below distinguish checked arguments, imported theorems, and unfinished gates.
 
-**External replay** (opening of [c30/round1/EXTERNAL_REPLAY.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c30/round1/EXTERNAL_REPLAY.md))
+**External replay** (opening of [c30/round1/EXTERNAL_REPLAY.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c30/round1/EXTERNAL_REPLAY.md))
 
 ### External replay
 
@@ -998,15 +1088,15 @@ equations, the first-moment family, the two-leaf cap, the envelope lemma and
 Norton's machinery). The replay checks the final evaluation from the stated
 profile, not that the profile is achieved. It is not a peer review.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c30/round1/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c30/round1/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c30/round1/REFEREE.md) · [External replay](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c30/round1/EXTERNAL_REPLAY.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c30/round1/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c30/round1/PROOF.md) · [Referee](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c30/round1/REFEREE.md) · [External replay](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c30/round1/EXTERNAL_REPLAY.md)
 
 ---
 
 # C31b: four-letter LCS constant
 
-Folder: [c31b/h9-unit30](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c31b/h9-unit30)
+Folder: [c31b/h9-unit30](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c31b/h9-unit30)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C<sub>31b</sub> ≥ **0.617356908308**
 
@@ -1014,7 +1104,7 @@ Previous best: 14982218/24268325 in PR #272 (Leandre Jack), same operator
 
 Status: Not filed: a precision refinement (2<sup>-30</sup> unit) of Jack's construction, offered to him [on #272](https://github.com/teorth/optimizationproblems/pull/272#issuecomment-6603405770). Separately written (same agent) checker; two AI reviews
 
-**Claim** (opening of [c31b/h9-unit30/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c31b/h9-unit30/README.md))
+**Claim** (opening of [c31b/h9-unit30/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c31b/h9-unit30/README.md))
 
 ### C31b: h=9 lower bound with fixed-point unit 2^-30
 
@@ -1032,7 +1122,7 @@ The exact gain over Jack's stated 14982218/24268325 is
 support a higher value, so the gain over that witness may be smaller.
 Both values have the same six-place floor, 0.617356.
 
-**Method** (first paragraph of [c31b/h9-unit30/PROOF_C31_LOWER.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c31b/h9-unit30/PROOF_C31_LOWER.md))
+**Method** (first paragraph of [c31b/h9-unit30/PROOF_C31_LOWER.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c31b/h9-unit30/PROOF_C31_LOWER.md))
 
 This is a continuation of Leandre Jack's public construction in PR #272,
 using Lueker's finite lookahead method (2009, Lemma 2.3), in the
@@ -1045,15 +1135,15 @@ More fixed-point bits do not change the mathematical operator. No novelty
 judgment is made. A certificate value is claimed only when the frozen
 metadata has a complete separate exact-check receipt.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c31b/h9-unit30/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c31b/h9-unit30/PROOF_C31_LOWER.md) · [Value proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c31b/h9-unit30/VALUE_PROOF.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c31b/h9-unit30/README.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c31b/h9-unit30/PROOF_C31_LOWER.md) · [Value proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c31b/h9-unit30/VALUE_PROOF.md)
 
 ---
 
 # C10a: real Grothendieck constant
 
-Folder: [c10a](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/c10a)
+Folder: [c10a](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c10a)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: Recording only: 1.773 ≤ C<sub>10a</sub> ≤ 1.77987164. **Not my bounds**
 
@@ -1061,7 +1151,7 @@ Previous best: [SLXCKKM26] and earlier on the table
 
 Status: Replay receipts for Heilman-Jones-Malavolta and Peng; [Tao-table PR #300](https://github.com/teorth/optimizationproblems/pull/300) open, not merged. No new bound
 
-**Claim** (opening of [c10a/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c10a/README.md))
+**Claim** (opening of [c10a/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c10a/README.md))
 
 ### Replay of two real Grothendieck constant bounds
 
@@ -1080,15 +1170,15 @@ This is a replay of certificates, not a review of the proofs. The analytic reduc
 
 Junyu Ren's public claim of 1.779754412112 was not audited and is treated as unverified.
 
-Full record: [Record](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/c10a/README.md)
+Full record: [Record](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/c10a/README.md)
 
 ---
 
 # Tetrahedron cylinder cover (openai/math problem 100)
 
-Folder: [tetrahedron-cover](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/tetrahedron-cover)
+Folder: [tetrahedron-cover](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/tetrahedron-cover)
 
-**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/README.md))
+**Status** (from the table in [README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/README.md))
 
 Bound: C < **0.499613830783714149** (saving 3.86 × 10⁻⁴ below 1/2)
 
@@ -1096,7 +1186,7 @@ Previous best: ≈ 5.4 × 10⁻¹⁰ saving (the problem's explicit example)
 
 Status: Hexagon [2610.00304](https://hexagonmath.org/2610.00304); an arXiv submission (17 Oct 2026) is on hold in moderation and not listed as of 7 Nov 2026; reported at [plasma-ai/erdos#55](https://github.com/plasma-ai/erdos/issues/55) and [kisonecat/openai-math#1](https://github.com/kisonecat/openai-math/issues/1)
 
-**Claim** (opening of [tetrahedron-cover/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/tetrahedron-cover/README.md))
+**Claim** (opening of [tetrahedron-cover/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/tetrahedron-cover/README.md))
 
 ### A finite cylinder cover of the tetrahedron saving 3.86 × 10⁻⁴ below the half-area bound
 
@@ -1120,39 +1210,39 @@ No claim of optimality or priority is made: we found no larger rigorously publis
 search was not exhaustive. A target of 10⁻³ was **not** reached, and `structural_bound.py` proves C ≥ 0.4993 for the
 final symmetric axis family with arbitrary shared even radial cutoffs, for every tilt 0 ≤ τ ≤ 1.
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/tetrahedron-cover/README.md) · [Separately computed radii](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/tetrahedron-cover/INDEPENDENT_RADII.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/tetrahedron-cover/README.md) · [Separately computed radii](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/tetrahedron-cover/INDEPENDENT_RADII.md)
 
 ---
 
 # Linear code records (codetables.de)
 
-Folder: [codetables](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables)
+Folder: [codetables](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables)
 
-**Claim** (opening of [codetables/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables/README.md))
+**Claim** (opening of [codetables/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables/README.md))
 
 These are nine candidate improvements to lower bounds in Markus Grassl’s codetables.de tables. The first six were sent to the maintainer on 6 November 2026; the last three, [92,13,61], [106,12,72] and [85,15,54] over GF(9), were not part of that submission and have not been sent. None is yet accepted or listed in the tables. The search and checks were run by AI agents (OpenAI Codex models): the search on GPT-6.1 Sol, and each clean-room check on GPT-6 Astra, which wrote its checker without reading the search code.
 
 | parameters | field | table lower–upper before (fetch time, UTC) | ours | construction | how d was checked |
 |---|---|---|---:|---|---|
-| [[74,12,43]](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables/q5_n74_k12_d43) | GF(5) | [42–50](https://www.codetables.de/BKLC/BKLC.php?q=5&n=74&k=12), 2026-11-06 17:21:02.261807 UTC | 43 | Construction XX: cyclic [62,12,35], subcodes [62,9,39] and [62,9,39], intersection [62,6,43], two [6,3,4] tails. | exhaustive enumeration of all projective messages |
-| [[128,14,79]](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables/q5_n128_k14_d79) | GF(5) | [78–90](https://www.codetables.de/BKLC/BKLC.php?q=5&n=128&k=14), 2026-11-06 17:21:02.252889 UTC | 79 | Construction X: cyclic [124,14,76] containing [124,12,79], with a [4,2,3] tail. | exhaustive enumeration of all projective messages |
-| [[129,14,80]](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables/q5_n129_k14_d80) | GF(5) | [79–91](https://www.codetables.de/BKLC/BKLC.php?q=5&n=129&k=14), 2026-11-06 18:41:07.276405 UTC | 80 | Construction XX: cyclic [124,14,75], subcodes [124,13,76] and [124,13,82], intersection [124,12,83], tails [1,1,1] and [4,1,4]; also last-coordinate puncturing of [130,14,81]. | provably complete Brouwer–Zimmermann information-set search |
-| [[130,14,81]](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables/q5_n130_k14_d81) | GF(5) | [80–92](https://www.codetables.de/BKLC/BKLC.php?q=5&n=130&k=14), 2026-11-06 18:41:07.985385 UTC | 81 | Construction XX: cyclic [124,14,75], subcodes [124,13,76] and [124,13,82], intersection [124,12,83], tails [1,1,1] and [5,1,5]. | provably complete Brouwer–Zimmermann information-set search |
-| [[130,16,77]](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables/q5_n130_k16_d77) | GF(5) | [76–90](https://www.codetables.de/BKLC/BKLC.php?q=5&n=130&k=16), 2026-11-06 18:41:08.432788 UTC | 77 | Construction XX: cyclic [124,16,73], subcodes [124,15,74] and [124,13,76], intersection [124,12,79], tails [1,1,1] and [5,3,3]. | provably complete Brouwer–Zimmermann information-set search |
-| [[99,12,67]](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables/q9_n99_k12_d67) | GF(9) | [66–78](https://www.codetables.de/BKLC/BKLC.php?q=9&n=99&k=12), 2026-11-06 18:41:08.887505 UTC | 67 | Construction X: cyclic [91,12,61] containing [91,9,67], with an [8,3,6] Reed–Solomon tail. | provably complete Brouwer–Zimmermann information-set search |
-| [[92,13,61]](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables/q9_n92_k13_d61) | GF(9) | [60–71](https://www.codetables.de/BKLC/BKLC.php?q=9&n=92&k=13), 2026-11-06 20:17:14.279255 UTC | 61 | Construction X: cyclic [91,13,60] containing [91,12,61], with a [1,1,1] tail. | provably complete Brouwer–Zimmermann information-set search |
-| [[106,12,72]](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables/q9_n106_k12_d72) | GF(9) | [71–84](https://www.codetables.de/BKLC/BKLC.php?q=9&n=106&k=12), 2026-11-07 12:28:23 UTC | 72 | Construction XX: cyclic [91,12,61], subcodes [91,9,66] and [91,9,67], intersection [91,6,72], tails [7,3,5] and [8,3,6]. | exhaustive enumeration of all projective messages |
-| [[85,15,54]](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables/q9_n85_k15_d54) | GF(9) | [53–63](https://www.codetables.de/BKLC/BKLC.php?q=9&n=85&k=15), 2026-11-08 01:00:38.935 UTC | 54 | Construction XX: cyclic [80,15,51], subcodes [80,14,52] and [80,12,53], intersection [80,11,54], tails [1,1,1] and [4,3,2]. | BCH bound plus a complete Brouwer–Zimmermann search on a shortened subcode |
+| [[74,12,43]](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables/q5_n74_k12_d43) | GF(5) | [42–50](https://www.codetables.de/BKLC/BKLC.php?q=5&n=74&k=12), 2026-11-06 17:21:02.261807 UTC | 43 | Construction XX: cyclic [62,12,35], subcodes [62,9,39] and [62,9,39], intersection [62,6,43], two [6,3,4] tails. | exhaustive enumeration of all projective messages |
+| [[128,14,79]](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables/q5_n128_k14_d79) | GF(5) | [78–90](https://www.codetables.de/BKLC/BKLC.php?q=5&n=128&k=14), 2026-11-06 17:21:02.252889 UTC | 79 | Construction X: cyclic [124,14,76] containing [124,12,79], with a [4,2,3] tail. | exhaustive enumeration of all projective messages |
+| [[129,14,80]](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables/q5_n129_k14_d80) | GF(5) | [79–91](https://www.codetables.de/BKLC/BKLC.php?q=5&n=129&k=14), 2026-11-06 18:41:07.276405 UTC | 80 | Construction XX: cyclic [124,14,75], subcodes [124,13,76] and [124,13,82], intersection [124,12,83], tails [1,1,1] and [4,1,4]; also last-coordinate puncturing of [130,14,81]. | provably complete Brouwer–Zimmermann information-set search |
+| [[130,14,81]](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables/q5_n130_k14_d81) | GF(5) | [80–92](https://www.codetables.de/BKLC/BKLC.php?q=5&n=130&k=14), 2026-11-06 18:41:07.985385 UTC | 81 | Construction XX: cyclic [124,14,75], subcodes [124,13,76] and [124,13,82], intersection [124,12,83], tails [1,1,1] and [5,1,5]. | provably complete Brouwer–Zimmermann information-set search |
+| [[130,16,77]](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables/q5_n130_k16_d77) | GF(5) | [76–90](https://www.codetables.de/BKLC/BKLC.php?q=5&n=130&k=16), 2026-11-06 18:41:08.432788 UTC | 77 | Construction XX: cyclic [124,16,73], subcodes [124,15,74] and [124,13,76], intersection [124,12,79], tails [1,1,1] and [5,3,3]. | provably complete Brouwer–Zimmermann information-set search |
+| [[99,12,67]](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables/q9_n99_k12_d67) | GF(9) | [66–78](https://www.codetables.de/BKLC/BKLC.php?q=9&n=99&k=12), 2026-11-06 18:41:08.887505 UTC | 67 | Construction X: cyclic [91,12,61] containing [91,9,67], with an [8,3,6] Reed–Solomon tail. | provably complete Brouwer–Zimmermann information-set search |
+| [[92,13,61]](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables/q9_n92_k13_d61) | GF(9) | [60–71](https://www.codetables.de/BKLC/BKLC.php?q=9&n=92&k=13), 2026-11-06 20:17:14.279255 UTC | 61 | Construction X: cyclic [91,13,60] containing [91,12,61], with a [1,1,1] tail. | provably complete Brouwer–Zimmermann information-set search |
+| [[106,12,72]](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables/q9_n106_k12_d72) | GF(9) | [71–84](https://www.codetables.de/BKLC/BKLC.php?q=9&n=106&k=12), 2026-11-07 12:28:23 UTC | 72 | Construction XX: cyclic [91,12,61], subcodes [91,9,66] and [91,9,67], intersection [91,6,72], tails [7,3,5] and [8,3,6]. | exhaustive enumeration of all projective messages |
+| [[85,15,54]](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables/q9_n85_k15_d54) | GF(9) | [53–63](https://www.codetables.de/BKLC/BKLC.php?q=9&n=85&k=15), 2026-11-08 01:00:38.935 UTC | 54 | Construction XX: cyclic [80,15,51], subcodes [80,14,52] and [80,12,53], intersection [80,11,54], tails [1,1,1] and [4,3,2]. | BCH bound plus a complete Brouwer–Zimmermann search on a shortened subcode |
 
-Full record: [Result](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/codetables/README.md)
+Full record: [Result](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/codetables/README.md)
 
 ---
 
 # Replays of other people's results
 
-Folder: [replays/3a](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/replays/3a)
+Folder: [replays/3a](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/replays/3a)
 
-**Claim** (opening of [replays/3a/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/replays/3a/README.md))
+**Claim** (opening of [replays/3a/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/replays/3a/README.md))
 
 ### Clean-room replays of three starred 3a rows
 
@@ -1165,19 +1255,19 @@ has reviewed them.
 
 | Row | Claim | Replay | Folder |
 |---|---|---|---|
-| M2026 ([PR #236](https://github.com/teorth/optimizationproblems/pull/236), mizopl) | > 1.19230254 | PASS: θ ≥ 1.192302540705685029…, with n0 = 17074745018 and L = 50031092045455301 rebuilt from the page text and equal to the page's | [M2026/](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/replays/3a/M2026) |
-| Syl2026, k = 2 ([PR #238](https://github.com/teorth/optimizationproblems/pull/238), xSyllaa) | > 1.19281555 | PASS: θ ≥ 1.192815557092986…, margin 7.1·10⁻⁹. The cost histogram was rebuilt in full and is byte-identical to the claimant's | [Syl2026_k2k3/](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/replays/3a/Syl2026_k2k3) |
-| Syl2026, k = 3 ([PR #238](https://github.com/teorth/optimizationproblems/pull/238)) | > 1.19359680 | PASS conditional on the high-cost part (cost > 17500) of the claimant's histogram. That part was checked only statistically, and the low-cost part exactly | [Syl2026_k2k3/](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/replays/3a/Syl2026_k2k3) |
+| M2026 ([PR #236](https://github.com/teorth/optimizationproblems/pull/236), mizopl) | > 1.19230254 | PASS: θ ≥ 1.192302540705685029…, with n0 = 17074745018 and L = 50031092045455301 rebuilt from the page text and equal to the page's | [M2026/](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/replays/3a/M2026) |
+| Syl2026, k = 2 ([PR #238](https://github.com/teorth/optimizationproblems/pull/238), xSyllaa) | > 1.19281555 | PASS: θ ≥ 1.192815557092986…, margin 7.1·10⁻⁹. The cost histogram was rebuilt in full and is byte-identical to the claimant's | [Syl2026_k2k3/](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/replays/3a/Syl2026_k2k3) |
+| Syl2026, k = 3 ([PR #238](https://github.com/teorth/optimizationproblems/pull/238)) | > 1.19359680 | PASS conditional on the high-cost part (cost > 17500) of the claimant's histogram. That part was checked only statistically, and the low-cost part exactly | [Syl2026_k2k3/](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/replays/3a/Syl2026_k2k3) |
 
-Full record: [Replay](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/replays/3a/README.md)
+Full record: [Replay](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/replays/3a/README.md)
 
 ---
 
 # Results for other people's papers
 
-Folder: [friends](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends)
+Folder: [friends](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends)
 
-**Claim** (opening of [friends/README.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/README.md))
+**Claim** (opening of [friends/README.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/README.md))
 
 ### Results for other people's papers
 
@@ -1204,15 +1294,15 @@ Everything below has been sent to the author it concerns. Results that were not 
 
 Two caveats worth repeating rather than burying: prior art already improves the FiFAR solver on its own (nguyetvo's public repository), and that benchmark has no unused hold-out, so the comparison is to a published table, not to a fresh test set.
 
-Full record: [Overview](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/README.md)
+Full record: [Overview](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/README.md)
 
 ---
 
 # José Bento: Nesterov certificate
 
-Folder: [friends/bento/j011-nesterov-certificate](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j011-nesterov-certificate)
+Folder: [friends/bento/j011-nesterov-certificate](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j011-nesterov-certificate)
 
-**Verdict** (opening of [friends/bento/j011-nesterov-certificate/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j011-nesterov-certificate/VERDICT.md))
+**Verdict** (opening of [friends/bento/j011-nesterov-certificate/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j011-nesterov-certificate/VERDICT.md))
 
 HOLDS
 Referee: gpt-6.1-sol
@@ -1235,15 +1325,15 @@ No hold-out or dataset exists. The trivial quadratic control gives
 q=441/625=0.7056 and cannot certify the nonquadratic class. The basic
 matched off-by-one frequency test fails exactly at the proposed factor.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j011-nesterov-certificate/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j011-nesterov-certificate/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j011-nesterov-certificate/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j011-nesterov-certificate/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j011-nesterov-certificate/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j011-nesterov-certificate/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j011-nesterov-certificate/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j011-nesterov-certificate/PRIOR_ART.md)
 
 ---
 
 # José Bento: weighted fused lasso
 
-Folder: [friends/bento/j012-weighted-fused-lasso](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j012-weighted-fused-lasso)
+Folder: [friends/bento/j012-weighted-fused-lasso](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j012-weighted-fused-lasso)
 
-**Verdict** (opening of [friends/bento/j012-weighted-fused-lasso/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j012-weighted-fused-lasso/VERDICT.md))
+**Verdict** (opening of [friends/bento/j012-weighted-fused-lasso/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j012-weighted-fused-lasso/VERDICT.md))
 
 HOLDS
 Referee: gpt-6.1-sol
@@ -1258,15 +1348,15 @@ All submitted knots and coefficients agree exactly. Fig.1 has T=5 and knots 25/2
 The checker rejected five negative controls, including cutting the low-weight edge and testing that different objective's path under the original positive weights.
 There is no statistical holdout: this is an all-input theorem, and the synthetic cases are diagnostics. No holdout-based performance gain is asserted.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j012-weighted-fused-lasso/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j012-weighted-fused-lasso/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j012-weighted-fused-lasso/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j012-weighted-fused-lasso/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j012-weighted-fused-lasso/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j012-weighted-fused-lasso/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j012-weighted-fused-lasso/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j012-weighted-fused-lasso/PRIOR_ART.md)
 
 ---
 
 # José Bento: perfect phylogeny margin
 
-Folder: [friends/bento/j019-perfect-phylogeny-margin](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j019-perfect-phylogeny-margin)
+Folder: [friends/bento/j019-perfect-phylogeny-margin](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j019-perfect-phylogeny-margin)
 
-**Verdict** (opening of [friends/bento/j019-perfect-phylogeny-margin/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j019-perfect-phylogeny-margin/VERDICT.md))
+**Verdict** (opening of [friends/bento/j019-perfect-phylogeny-margin/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j019-perfect-phylogeny-margin/VERDICT.md))
 
 HOLDS WITH CAVEATS
 Referee: gpt-6.1-sol
@@ -1286,15 +1376,15 @@ The all-q proof and survival-conditioning argument are valid: conditioning on
 positive-probability survival preserves quadratic variation. Finite candidates
 then give the simultaneous limit. Equality at the threshold remains unclaimed.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j019-perfect-phylogeny-margin/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j019-perfect-phylogeny-margin/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j019-perfect-phylogeny-margin/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/bento/j019-perfect-phylogeny-margin/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j019-perfect-phylogeny-margin/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j019-perfect-phylogeny-margin/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j019-perfect-phylogeny-margin/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/bento/j019-perfect-phylogeny-margin/PRIOR_ART.md)
 
 ---
 
 # Hugo L. Fernandes: OPTW optima
 
-Folder: [friends/fernandes-orienteering/hb01-optw-optima](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb01-optw-optima)
+Folder: [friends/fernandes-orienteering/hb01-optw-optima](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb01-optw-optima)
 
-**Verdict** (opening of [friends/fernandes-orienteering/hb01-optw-optima/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb01-optw-optima/VERDICT.md))
+**Verdict** (opening of [friends/fernandes-orienteering/hb01-optw-optima/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb01-optw-optima/VERDICT.md))
 
 HOLDS WITH CAVEATS
 Referee: gpt-6.1-sol
@@ -1305,15 +1395,15 @@ The [primary paper](https://arxiv.org/pdf/2011.03647v2) is by Ricardo Gama and H
 
 What I ran: newly written C++ raw parser/upper-certificate checker, importing no claimant search or verifier code; 225,910 states and 11,439,464 successor checks passed. Independent rational route checks passed for all fifteen under both travel conventions. Eighty brute-force fixtures passed; forged false uppers and empty covers were rejected on every claimed benchmark.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb01-optw-optima/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb01-optw-optima/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb01-optw-optima/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb01-optw-optima/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb01-optw-optima/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb01-optw-optima/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb01-optw-optima/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb01-optw-optima/PRIOR_ART.md)
 
 ---
 
 # Hugo L. Fernandes: TOPTW pr11
 
-Folder: [friends/fernandes-orienteering/hb16-toptw-pr11](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb16-toptw-pr11)
+Folder: [friends/fernandes-orienteering/hb16-toptw-pr11](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb16-toptw-pr11)
 
-**Verdict** (opening of [friends/fernandes-orienteering/hb16-toptw-pr11/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb16-toptw-pr11/VERDICT.md))
+**Verdict** (opening of [friends/fernandes-orienteering/hb16-toptw-pr11/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb16-toptw-pr11/VERDICT.md))
 
 HOLDS WITH CAVEATS
 Referee: gpt-6.1-sol
@@ -1325,15 +1415,15 @@ The verified bound is 1000×score ≤623716+3×11082=656962, hence score≤656. 
 
 What I ran: fresh official download and byte comparison; independent primal and upper checks;40 exhaustive small fixtures with false-bound/missing-root attacks; five malformed-route attacks; fresh compilation/run of the unmodified public SISR baseline, whose new654 routes also pass my checker. My simple insertion control scored544. A separate all-customers CP test was inconclusive after120seconds and supplies no proof.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb16-toptw-pr11/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb16-toptw-pr11/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb16-toptw-pr11/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb16-toptw-pr11/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb16-toptw-pr11/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb16-toptw-pr11/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb16-toptw-pr11/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb16-toptw-pr11/PRIOR_ART.md)
 
 ---
 
 # Hugo L. Fernandes: TOPTW c104
 
-Folder: [friends/fernandes-orienteering/hb17-toptw-c104](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb17-toptw-c104)
+Folder: [friends/fernandes-orienteering/hb17-toptw-c104](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb17-toptw-c104)
 
-**Verdict** (opening of [friends/fernandes-orienteering/hb17-toptw-c104/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb17-toptw-c104/VERDICT.md))
+**Verdict** (opening of [friends/fernandes-orienteering/hb17-toptw-c104/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb17-toptw-c104/VERDICT.md))
 
 HOLDS
 Referee: gpt-6.1-sol
@@ -1349,15 +1439,15 @@ Fresh thesis downloads were challenged; I inspected the retained actual PDF, not
 Fresh Peng 2025 Table 6 reports 1260 in regular font at 7200 seconds, hence unproved by that run.
 The convention is §5.5, printed 27; CLAIM.md's §5.4 citation is a harmless typo.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb17-toptw-c104/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb17-toptw-c104/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb17-toptw-c104/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/fernandes-orienteering/hb17-toptw-c104/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb17-toptw-c104/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb17-toptw-c104/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb17-toptw-c104/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/fernandes-orienteering/hb17-toptw-c104/PRIOR_ART.md)
 
 ---
 
 # Luís Diogo: Remark 4.2, even spheres
 
-Folder: [friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres)
+Folder: [friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres)
 
-**Verdict** (opening of [friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/VERDICT.md))
+**Verdict** (opening of [friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/VERDICT.md))
 
 HOLDS WITH CAVEATS
 Referee: gpt-6.1-sol
@@ -1380,15 +1470,15 @@ Noetherianity gives finite generators, two genuine cohomological syzygies give
 a graded free module, and split-generation detects the last cone as zero.
 This uses actual closed maps, without importing field-only module formality.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-even-spheres/PRIOR_ART.md)
 
 ---
 
 # Luís Diogo: Remark 4.2, odd spheres
 
-Folder: [friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres)
+Folder: [friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres)
 
-**Verdict** (opening of [friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/VERDICT.md))
+**Verdict** (opening of [friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/VERDICT.md))
 
 HOLDS WITH CAVEATS
 Referee: gpt-6.1-sol
@@ -1399,15 +1489,15 @@ The baseline is correctly identified: [Abouzaid–Diogo, journal p21, Propositio
 
 I checked the full-real-exponent ring against [Farber–Schuetz, Lemma 1](https://arxiv.org/pdf/0807.3240) and read [Seshadri's original pp456–458](https://pmc.ncbi.nlm.nih.gov/articles/PMC335443/). The PID, Noetherianity, projective-freeness, parity, two-syzygy and detection steps have the required hypotheses. Finite upper triangular cones introduce no infinite sequence of new arrows; this says nothing about filtered generation.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-2-odd-spheres/PRIOR_ART.md)
 
 ---
 
 # Luís Diogo: Remark 4.10, the sign
 
-Folder: [friends/luis-abouzaid-lagrangians/remark-4-10-sign](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-10-sign)
+Folder: [friends/luis-abouzaid-lagrangians/remark-4-10-sign](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-10-sign)
 
-**Verdict** (opening of [friends/luis-abouzaid-lagrangians/remark-4-10-sign/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-10-sign/VERDICT.md))
+**Verdict** (opening of [friends/luis-abouzaid-lagrangians/remark-4-10-sign/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-10-sign/VERDICT.md))
 
 HOLDS
 Referee: gpt-6.1-sol
@@ -1436,15 +1526,15 @@ Geometry and source comparison are documented in independent_audit/AUDIT.md.
 Ono source: https://arxiv.org/pdf/2504.20489, Proposition 3.1 and (3.4).
 No ML score is involved; SBS and predictive baselines are inapplicable.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-10-sign/CLAIM.md) · [Proof](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-10-sign/PROOF.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-10-sign/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-10-sign/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/luis-abouzaid-lagrangians/remark-4-10-sign/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-10-sign/CLAIM.md) · [Proof](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-10-sign/PROOF.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-10-sign/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-10-sign/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/luis-abouzaid-lagrangians/remark-4-10-sign/PRIOR_ART.md)
 
 ---
 
 # Oliveira e Silva: sign uncertainty, odd ℓ
 
-Folder: [friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee)
+Folder: [friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee)
 
-**Verdict** (opening of [friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/VERDICT.md))
+**Verdict** (opening of [friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/VERDICT.md))
 
 HOLDS
 Referee: gpt-6.1-sol
@@ -1469,15 +1559,15 @@ Finite checks supplement the all-ell algebra; they do not prove its quantifier.
 Broken-phase and next-cutoff controls were rejected. Subgroup sums alone fail
 as a proof: an explicit relaxed vector satisfies them but fails the eigen equation.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee/PRIOR_ART.md)
 
 ---
 
 # Oliveira e Silva: sign uncertainty, adjacent jump
 
-Folder: [friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003)
+Folder: [friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003)
 
-**Verdict** (opening of [friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/VERDICT.md))
+**Verdict** (opening of [friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/VERDICT.md))
 
 HOLDS
 Referee: gpt-6.1-sol
@@ -1492,15 +1582,15 @@ Ran independently written `independent_check.py` on the shared pod: 320-bit Arb,
 
 All three lower certificates passed. Exact inner zeros follow algebraically from the correction equations, rather than numerical tolerances. Their remaining signs and positive endpoints contradict every feasible vector at the preceding index through DFT orthogonality. Five negative controls were rejected, including zero-endpoint and incorrectly strengthened certificates.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db41-sign-uncertainty-odd/referee-d003/PRIOR_ART.md)
 
 ---
 
 # Oliveira e Silva: biharmonic attainment
 
-Folder: [friends/oliveira-e-silva/db53-biharmonic-attainment/referee](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db53-biharmonic-attainment/referee)
+Folder: [friends/oliveira-e-silva/db53-biharmonic-attainment/referee](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db53-biharmonic-attainment/referee)
 
-**Verdict** (opening of [friends/oliveira-e-silva/db53-biharmonic-attainment/referee/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db53-biharmonic-attainment/referee/VERDICT.md))
+**Verdict** (opening of [friends/oliveira-e-silva/db53-biharmonic-attainment/referee/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db53-biharmonic-attainment/referee/VERDICT.md))
 
 HOLDS
 Referee: gpt-6.1-sol
@@ -1511,15 +1601,15 @@ The [published paper](https://doi.org/10.1007/s00526-023-02654-9) is coauthored 
 
 Why it holds: a real axial minimizer exists; the cited exponential-decay theorem applies below the free spectrum. The weighted convolution identity has the required positive transverse form, with PLUS lambda². Holomorphy handles zero ordinary axial mean. The real-power inequality gives strict binding below 2^(1-2/p)mG, and exact reflected residuals exclude escape even for complex profiles. REPORT.md details the functional justifications.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db53-biharmonic-attainment/referee/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db53-biharmonic-attainment/referee/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db53-biharmonic-attainment/referee/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/oliveira-e-silva/db53-biharmonic-attainment/referee/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db53-biharmonic-attainment/referee/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db53-biharmonic-attainment/referee/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db53-biharmonic-attainment/referee/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/oliveira-e-silva/db53-biharmonic-attainment/referee/PRIOR_ART.md)
 
 ---
 
 # Marco Sampaio: FiFAR deferral costs
 
-Folder: [friends/sampaio-fifar-deferral](https://github.com/rpinho/math-certificates/tree/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/sampaio-fifar-deferral)
+Folder: [friends/sampaio-fifar-deferral](https://github.com/rpinho/math-certificates/tree/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/sampaio-fifar-deferral)
 
-**Verdict** (opening of [friends/sampaio-fifar-deferral/VERDICT.md](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/sampaio-fifar-deferral/VERDICT.md))
+**Verdict** (opening of [friends/sampaio-fifar-deferral/VERDICT.md](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/sampaio-fifar-deferral/VERDICT.md))
 
 HOLDS WITH CAVEATS
 Referee: gpt-6.1-sol
@@ -1533,5 +1623,5 @@ All 500 selected heads' coefficients match; all conditional and classifier valid
 An independent integer solver reconstructs every one of the 125 headline assignments exactly; separate exact certificates check optimality for the registered rounded utilities.
 The independently optimized class-frequency control costs 171.26268, 162.14964, 158.68900, 156.80104, 158.30044. Counts alone do not explain the gain.
 
-Full record: [Claim](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/sampaio-fifar-deferral/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/sampaio-fifar-deferral/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/sampaio-fifar-deferral/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/aed5011f71082ab1373bdd8692801dd6cb0ec608/friends/sampaio-fifar-deferral/PRIOR_ART.md)
+Full record: [Claim](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/sampaio-fifar-deferral/CLAIM.md) · [Referee report](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/sampaio-fifar-deferral/REPORT.md) · [Verdict](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/sampaio-fifar-deferral/VERDICT.md) · [Prior art](https://github.com/rpinho/math-certificates/blob/2ffd9d647e0c0b29b64bf8cece133ab34108092c/friends/sampaio-fifar-deferral/PRIOR_ART.md)
 
